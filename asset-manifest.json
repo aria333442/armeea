@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/armeea/static/css/main.4c868913.chunk.css",
-    "main.js": "/armeea/static/js/main.c50ed198.chunk.js",
-    "main.js.map": "/armeea/static/js/main.c50ed198.chunk.js.map",
+    "main.js": "/armeea/static/js/main.e07833f0.chunk.js",
+    "main.js.map": "/armeea/static/js/main.e07833f0.chunk.js.map",
     "runtime-main.js": "/armeea/static/js/runtime-main.fe0d3509.js",
     "runtime-main.js.map": "/armeea/static/js/runtime-main.fe0d3509.js.map",
     "static/css/2.e210fbbb.chunk.css": "/armeea/static/css/2.e210fbbb.chunk.css",
@@ -25,6 +25,6 @@
     "static/css/2.e210fbbb.chunk.css",
     "static/js/2.3e312b54.chunk.js",
     "static/css/main.4c868913.chunk.css",
-    "static/js/main.c50ed198.chunk.js"
+    "static/js/main.e07833f0.chunk.js"
   ]
 }
