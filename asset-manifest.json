@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/armeea/static/css/main.4c868913.chunk.css",
-    "main.js": "/armeea/static/js/main.e07833f0.chunk.js",
-    "main.js.map": "/armeea/static/js/main.e07833f0.chunk.js.map",
+    "main.js": "/armeea/static/js/main.72d2fffa.chunk.js",
+    "main.js.map": "/armeea/static/js/main.72d2fffa.chunk.js.map",
     "runtime-main.js": "/armeea/static/js/runtime-main.fe0d3509.js",
     "runtime-main.js.map": "/armeea/static/js/runtime-main.fe0d3509.js.map",
     "static/css/2.e210fbbb.chunk.css": "/armeea/static/css/2.e210fbbb.chunk.css",
-    "static/js/2.3e312b54.chunk.js": "/armeea/static/js/2.3e312b54.chunk.js",
-    "static/js/2.3e312b54.chunk.js.map": "/armeea/static/js/2.3e312b54.chunk.js.map",
+    "static/js/2.1258df8f.chunk.js": "/armeea/static/js/2.1258df8f.chunk.js",
+    "static/js/2.1258df8f.chunk.js.map": "/armeea/static/js/2.1258df8f.chunk.js.map",
     "index.html": "/armeea/index.html",
     "static/css/2.e210fbbb.chunk.css.map": "/armeea/static/css/2.e210fbbb.chunk.css.map",
     "static/css/main.4c868913.chunk.css.map": "/armeea/static/css/main.4c868913.chunk.css.map",
-    "static/js/2.3e312b54.chunk.js.LICENSE.txt": "/armeea/static/js/2.3e312b54.chunk.js.LICENSE.txt",
+    "static/js/2.1258df8f.chunk.js.LICENSE.txt": "/armeea/static/js/2.1258df8f.chunk.js.LICENSE.txt",
     "static/media/index.css": "/armeea/static/media/HomepageBaukasten-Book.4e829221.ttf",
     "static/media/animation_bg_1.8b7f1fb5.png": "/armeea/static/media/animation_bg_1.8b7f1fb5.png",
     "static/media/animation_bg_2.a98374ee.png": "/armeea/static/media/animation_bg_2.a98374ee.png",
@@ -23,8 +23,8 @@
   "entrypoints": [
     "static/js/runtime-main.fe0d3509.js",
     "static/css/2.e210fbbb.chunk.css",
-    "static/js/2.3e312b54.chunk.js",
+    "static/js/2.1258df8f.chunk.js",
     "static/css/main.4c868913.chunk.css",
-    "static/js/main.e07833f0.chunk.js"
+    "static/js/main.72d2fffa.chunk.js"
   ]
 }
