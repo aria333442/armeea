@@ -1,0 +1,167 @@
+@import "../css/variable";
+
+.highProduct {
+  margin-top: 210px;
+  margin-left: 30px;
+  margin-right: 30px;
+  &__top {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5%;
+    > div {
+      display: flex;
+      margin-left: 40px;
+
+      > div {
+        margin-left: 20px;
+        > h3 {
+          font-size: 16px;
+        }
+        > p {
+          font-size: 14px;
+          color: #616161;
+
+          font-family: "Regencie";
+        }
+      }
+    }
+  }
+  &__slider {
+    > div {
+      text-align: center;
+
+      margin-top: 100px !important;
+      > h2 {
+        font-size: 40px;
+        &::after {
+          content: " calidad";
+          color: $primary;
+        }
+      }
+    }
+    .swiper__box {
+      background-color: none;
+      overflow: hidden;
+      width: 100%;
+      margin-left: -0px;
+    }
+    .slick-slide {
+      opacity: 0.4;
+      width: 10px;
+      padding-left: 50px;
+      width: 372px;
+      height: 486px;
+      > xor {
+        opacity: 1 !important;
+      }
+    }
+
+    .slick-center {
+      opacity: 1;
+      max-width: 10% !important;
+      max-height: 20% !important;
+    }
+
+    .slick-arrow {
+      background-color: $primary;
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      box-shadow: 5px 5px 30px lightgray;
+      margin: 30px;
+      opacity: 2 !important;
+      margin-right: 30px;
+    }
+    .slick-prev:before,
+    .slick-next:before {
+      color: white;
+      opacity: 1;
+    }
+    .slick-prev::after {
+      content: "A";
+    }
+    .btn {
+      background-color: $primary;
+      padding: 10px 50px;
+      color: white;
+      border-radius: 5px;
+      margin-top: -40px;
+    }
+  }
+}
+.ninos {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+}
+.new {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+  font-size: 50px;
+}
+.pro {
+  height: 530px;
+  width: 400px;
+  margin-left: 60px;
+}
+.pro__title {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+  font-size: 45px;
+  font-weight: 550;
+  margin-top: 250px;
+}
+.pro__desc {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+  font-size: 20px;
+  color: gray;
+}
+.pro__but1 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+  color: white;
+  background-color: $primary;
+  padding: 5px 40px;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+.pro__but1:hover {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+  color: $primary;
+  background-color: white;
+  border: 1px solid $primary;
+  padding: 5px 40px;
+  border-radius: 10px;
+  margin-top: 50px;
+  text-decoration: none;
+}
+.pro__but2 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+  color: $primary;
+  background-color: white;
+  border: 1px solid $primary;
+  padding: 5px 40px;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-left: 30px;
+  text-decoration: none;
+}
+.pro__but2:hover {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+  color: white;
+  background-color: $primary;
+  padding: 5px 40px;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-left: 30px;
+  text-decoration: none;
+}
+.sli {
+  height: 530px;
+  width: 830px;
+}
+.slick-arrow {
+  background-color: $primary;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 30px lightgray;
+  margin-left: 30px;
+  opacity: 2 !important;
+  margin-top: 20px;
+}
