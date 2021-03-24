@@ -29,12 +29,13 @@ function Navbar() {
           >
             Inicio
           </h5>
-          <h5
+          <NavLink
             className="nav-links"
             style={{ color: "white", marginLeft: "50px", marginTop: "37px" }}
+            to="/shop"
           >
             Tienda
-          </h5>
+          </NavLink>
           <h5
             className="nav-links"
             style={{ color: "white", marginLeft: "50px", marginTop: "37px" }}
