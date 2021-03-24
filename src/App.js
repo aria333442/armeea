@@ -8,7 +8,7 @@ import Register from "./components/Register";
 function App() {
   return (
     <div className="App">
-      <Navbar></Navbar>
+      <Navbar />
       <Switch>
         <Route exact path="/" component={Landing}></Route>
         <Route exact path="/shop" component={Shop}></Route>
