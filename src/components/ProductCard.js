@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import StarRatings from "react-star-ratings";
 import "../css/_card.scss";
 const ProductCard = ({ x }) => {
@@ -17,7 +17,9 @@ const ProductCard = ({ x }) => {
       <p>{x.productName}</p>
       <p>${x.price}</p>
       <div>
-        <Link className="btn__details">DETALLES</Link>
+        <NavLink to="/product/x" className="btn__details">
+          DETALLES
+        </NavLink>
       </div>
     </div>
   );

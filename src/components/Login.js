@@ -1,10 +1,12 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "../css/login.scss";
+import Navbar from "./Navbar";
 
 function Register() {
   return (
     <div className="register">
+      <Navbar />
       <div className="form-box">
         <h1 className="form-title">
           Para seguir, ingresa tu e-mail y contraseña

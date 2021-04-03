@@ -1,8 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import AllProduct from "./AllProduct";
 import { background } from "./Background";
 import SideBox from "./SideBox";
 import "../css/_shop.scss";
+import Navbar from "../components/Navbar";
+import Footer from "./Footer";
 const Shop = () => {
   const [count, setCount] = useState(0);
   setTimeout(() => {
@@ -15,6 +17,7 @@ const Shop = () => {
 
   return (
     <div className="shop">
+      <Navbar />
       <div
         className="shop__banner"
         style={{ backgroundImage: `url(${background[count].img})` }}
@@ -34,6 +37,7 @@ const Shop = () => {
           <AllProduct></AllProduct>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

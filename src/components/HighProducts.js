@@ -26,7 +26,7 @@ const HighProducts = () => {
     infinite: true,
     autoplay: true,
     centerMode: true,
-    centerPadding: 10,
+    centerPadding: 8,
     swipe: false,
     autoplaySpeed: 3000,
     slidesToShow: 3,

@@ -17,6 +17,8 @@ import Newproducts from "./Newproducts";
 import Landingblog from "./Landingblog";
 import Furniture from "./Furniture";
 import Messenger from "./Messenger";
+import Footer from "./Footer";
+import Navbar from "../components/Navbar";
 
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, Autoplay]);
 
@@ -41,6 +43,7 @@ function Landing() {
       className="container-fluid ml-0 mr-0 p-0"
       style={{ marginTop: "100px", overflow: "hidden" }}
     >
+      <Navbar />
       <div className="landing">
         <div className="landing__slider">
           <Swiper
@@ -104,6 +107,7 @@ function Landing() {
       <Landingblog />
       <Furniture />
       <Messenger />
+      <Footer />
     </div>
   );
 }

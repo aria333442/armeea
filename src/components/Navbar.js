@@ -23,12 +23,13 @@ function Navbar() {
           }}
         >
           <img src={image} alt="logo" className="logo"></img>
-          <h5
+          <NavLink
+            to="/"
             className="nav-links"
             style={{ color: "white", marginLeft: "30px", marginTop: "37px" }}
           >
             Inicio
-          </h5>
+          </NavLink>
           <NavLink
             className="nav-links"
             style={{ color: "white", marginLeft: "50px", marginTop: "37px" }}
@@ -36,38 +37,42 @@ function Navbar() {
           >
             Tienda
           </NavLink>
-          <h5
+          <NavLink
+            to="/about"
             className="nav-links"
             style={{ color: "white", marginLeft: "50px", marginTop: "37px" }}
           >
             Nostoros
-          </h5>
-          <h5
+          </NavLink>
+          <NavLink
+            to="/contact"
             className="nav-links"
             style={{ color: "white", marginLeft: "50px", marginTop: "37px" }}
           >
             Contacto
-          </h5>
-          <h5
+          </NavLink>
+          <NavLink
+            to="/blog"
             className="nav-links"
             style={{ color: "white", marginLeft: "50px", marginTop: "37px" }}
           >
             Blog
-          </h5>
+          </NavLink>
           <div
             className="d-flex justify-content-center"
             style={{ marginLeft: "200px" }}
           >
-            <h5
+            <NavLink
+              to="/login"
               className="nav-links"
               style={{ color: "white", marginTop: "37px" }}
             >
               Ingresar
-            </h5>
+            </NavLink>
             <NavLink
               className="nav-links"
               style={{ color: "white", marginLeft: "40px", marginTop: "37px" }}
-              to="/login"
+              to="/register"
             >
               Registrarse
             </NavLink>

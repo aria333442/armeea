@@ -1,10 +1,14 @@
-.logo{
+.logo {
   margin-top: 14px;
 }
-.nav-links{
-   font-family: 'HomepageBaukasten-Book'; 
-   font-size: 20px;  
+.nav-links {
+  font-family: "HomepageBaukasten-Book";
+  font-size: 20px;
 }
-.nextbutton{
-    color: red;
+.nav-links:hover {
+  text-decoration: none;
+  color: white;
+}
+.nextbutton {
+  color: red;
 }
