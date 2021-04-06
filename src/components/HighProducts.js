@@ -19,6 +19,74 @@ const HighProducts = () => {
   }, []);
 
   const getcategory = useSelector((state) => state.getcategory);
+  const Card = () => {
+    return (
+      <NavLink to="/shop">
+        <div style={{ padding: "0px" }}>
+          <img
+            src="https://res.cloudinary.com/dd77cqt5fs/image/upload/v1617738245/desk_urbkuu.png"
+            style={{ width: "372px", height: "478px" }}
+          ></img>
+          <div
+            style={{
+              marginTop: "-160px",
+              marginLeft: "20px",
+              zIndex: 10,
+              position: "fixed",
+              backgroundColor: "white",
+              opacity: 0.9,
+              width: "250px",
+              height: "140px",
+            }}
+            className="d-flex"
+          ></div>
+          <div className="d-flex xor">
+            <div className="ninos">
+              <p
+                style={{
+                  fontSize: "21px",
+                  opacity: 0.7,
+                  marginTop: "-130px",
+                  position: "absolute",
+                  zIndex: 12,
+                  marginLeft: "55px",
+                  color: "black",
+                }}
+              >
+                Categoria
+              </p>
+              <p
+                style={{
+                  fontSize: "35px",
+                  opacity: 1,
+                  marginTop: "-110px",
+                  position: "absolute",
+                  zIndex: 12,
+                  marginLeft: "55px",
+                  color: "black",
+                }}
+              >
+                Mascotas
+              </p>
+            </div>
+            <Link
+              style={{
+                marginTop: "-66px",
+                marginLeft: "270px",
+                padding: "10px",
+                position: "absolute",
+                backgroundColor: "#ff6606",
+                paddingRight: "12px",
+                color: "white",
+              }}
+            >
+              <ArrowForwardIcon></ArrowForwardIcon>
+            </Link>
+          </div>
+        </div>
+      </NavLink>
+    );
+  };
 
   const settings = {
     dots: false,
@@ -90,74 +158,11 @@ const HighProducts = () => {
           </div>
           <div className="swiper__box">
             <Slider {...settings} onChange={() => alert()}>
-              {getcategory.category.map((cat) => {
-                return (
-                  <NavLink to="/shop">
-                    <div style={{ padding: "0px" }}>
-                      <img
-                        src={cat.image}
-                        style={{ width: "372px", height: "478px" }}
-                      ></img>
-                      <div
-                        style={{
-                          marginTop: "-160px",
-                          marginLeft: "20px",
-                          zIndex: 10,
-                          position: "fixed",
-                          backgroundColor: "white",
-                          opacity: 0.9,
-                          width: "250px",
-                          height: "140px",
-                        }}
-                        className="d-flex"
-                      ></div>
-                      <div className="d-flex xor">
-                        <div className="ninos">
-                          <p
-                            style={{
-                              fontSize: "21px",
-                              opacity: 0.7,
-                              marginTop: "-130px",
-                              position: "absolute",
-                              zIndex: 12,
-                              marginLeft: "55px",
-                              color: "black",
-                            }}
-                          >
-                            Categoria
-                          </p>
-                          <p
-                            style={{
-                              fontSize: "35px",
-                              opacity: 1,
-                              marginTop: "-110px",
-                              position: "absolute",
-                              zIndex: 12,
-                              marginLeft: "55px",
-                              color: "black",
-                            }}
-                          >
-                            {cat.name}
-                          </p>
-                        </div>
-                        <Link
-                          style={{
-                            marginTop: "-66px",
-                            marginLeft: "270px",
-                            padding: "10px",
-                            position: "absolute",
-                            backgroundColor: "#ff6606",
-                            paddingRight: "12px",
-                            color: "white",
-                          }}
-                        >
-                          <ArrowForwardIcon></ArrowForwardIcon>
-                        </Link>
-                      </div>
-                    </div>
-                  </NavLink>
-                );
-              })}
+              <Card />
+              <Card />
+              <Card />
+              <Card />
+              <Card />
             </Slider>
           </div>
           <div>
