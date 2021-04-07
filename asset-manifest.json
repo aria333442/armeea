@@ -1,30 +1,31 @@
 {
   "files": {
-    "main.css": "/armeea/static/css/main.5cd034e0.chunk.css",
-    "main.js": "/armeea/static/js/main.f8e19d47.chunk.js",
-    "main.js.map": "/armeea/static/js/main.f8e19d47.chunk.js.map",
+    "main.css": "/armeea/static/css/main.dea40a09.chunk.css",
+    "main.js": "/armeea/static/js/main.407622c5.chunk.js",
+    "main.js.map": "/armeea/static/js/main.407622c5.chunk.js.map",
     "runtime-main.js": "/armeea/static/js/runtime-main.fe0d3509.js",
     "runtime-main.js.map": "/armeea/static/js/runtime-main.fe0d3509.js.map",
     "static/css/2.e210fbbb.chunk.css": "/armeea/static/css/2.e210fbbb.chunk.css",
-    "static/js/2.261fcab8.chunk.js": "/armeea/static/js/2.261fcab8.chunk.js",
-    "static/js/2.261fcab8.chunk.js.map": "/armeea/static/js/2.261fcab8.chunk.js.map",
+    "static/js/2.d59f5a06.chunk.js": "/armeea/static/js/2.d59f5a06.chunk.js",
+    "static/js/2.d59f5a06.chunk.js.map": "/armeea/static/js/2.d59f5a06.chunk.js.map",
     "index.html": "/armeea/index.html",
     "static/css/2.e210fbbb.chunk.css.map": "/armeea/static/css/2.e210fbbb.chunk.css.map",
-    "static/css/main.5cd034e0.chunk.css.map": "/armeea/static/css/main.5cd034e0.chunk.css.map",
-    "static/js/2.261fcab8.chunk.js.LICENSE.txt": "/armeea/static/js/2.261fcab8.chunk.js.LICENSE.txt",
+    "static/css/main.dea40a09.chunk.css.map": "/armeea/static/css/main.dea40a09.chunk.css.map",
+    "static/js/2.d59f5a06.chunk.js.LICENSE.txt": "/armeea/static/js/2.d59f5a06.chunk.js.LICENSE.txt",
     "static/media/blog.scss": "/armeea/static/media/RegencieLight.35cc171e.ttf",
     "static/media/animation_bg_1.8b7f1fb5.png": "/armeea/static/media/animation_bg_1.8b7f1fb5.png",
     "static/media/animation_bg_2.a98374ee.png": "/armeea/static/media/animation_bg_2.a98374ee.png",
     "static/media/animation_bg_3.a98374ee.png": "/armeea/static/media/animation_bg_3.a98374ee.png",
     "static/media/children.ec4f6dcd.png": "/armeea/static/media/children.ec4f6dcd.png",
+    "static/media/decor.c65b0eb1.png": "/armeea/static/media/decor.c65b0eb1.png",
     "static/media/desk.66112a8c.png": "/armeea/static/media/desk.66112a8c.png",
     "static/media/slick-theme.css": "/armeea/static/media/slick.c94f7671.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.fe0d3509.js",
     "static/css/2.e210fbbb.chunk.css",
-    "static/js/2.261fcab8.chunk.js",
-    "static/css/main.5cd034e0.chunk.css",
-    "static/js/main.f8e19d47.chunk.js"
+    "static/js/2.d59f5a06.chunk.js",
+    "static/css/main.dea40a09.chunk.css",
+    "static/js/main.407622c5.chunk.js"
   ]
 }
