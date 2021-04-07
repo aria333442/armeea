@@ -134,7 +134,9 @@ function Product() {
           <div className="d-flex justify-content-center">
             <div className="d-flex">
               <div className="ProductImage_slider">
-                <p className="sliderabove__text">Regresar a la Tienda</p>
+                <NavLink to="/shop" className="sliderabove__text" style={{color:"black",textDecoration:"none"}}>
+                  Regresar a la Tienda
+                </NavLink>
                 <div className="d-flex">
                   <div className="small_images">
                     {images.map((ima, index) => {
