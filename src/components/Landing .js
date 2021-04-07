@@ -19,6 +19,7 @@ import Furniture from "./Furniture";
 import Messenger from "./Messenger";
 import Footer from "./Footer";
 import Nav from "./Nav";
+import animation_bg_1 from "../images/animation_bg_1.png";
 
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, Autoplay]);
 
@@ -32,9 +33,9 @@ function Landing() {
     },
     {
       image1:
-        "https://res.cloudinary.com/dd77cqt5fs/image/upload/v1613521847/black-clothing-girl-k7-1920x1080_lyau3n.jpg",
+        "https://res.cloudinary.com/dd77cqt5fs/image/upload/v1617795626/grid_1_4_joqs6r.png",
       image2:
-        "https://res.cloudinary.com/dd77cqt5fs/image/upload/v1613603809/download_1_brxzrr.jpg",
+        "https://res.cloudinary.com/dd77cqt5fs/image/upload/v1617795550/animation_bg_1_jv7atd.png",
     },
   ];
 
