@@ -64,7 +64,7 @@ function Landingblog() {
           </div>
           <div>
             <img src="https://res.cloudinary.com/dd77cqt5fs/image/upload/v1615938025/img2_w2w27a.png"></img>
-            <h4>Muebles pata tu felicidad</h4>
+            <h4>Muebles para tu felicidad</h4>
             <div className="d-flex">
               <p
                 style={{ fontSize: "25px", color: "gray", marginLeft: "25px" }}
@@ -90,7 +90,7 @@ function Landingblog() {
           </div>
           <div>
             <img src="https://res.cloudinary.com/dd77cqt5fs/image/upload/v1615938033/img3_jiessv.png"></img>
-            <h4>Muebles pata tu felicidad</h4>
+            <h4>Muebles para tu felicidad</h4>
             <div className="d-flex">
               <p
                 style={{ fontSize: "25px", color: "gray", marginLeft: "25px" }}
@@ -116,7 +116,7 @@ function Landingblog() {
           </div>
           <div>
             <img src="https://res.cloudinary.com/dd77cqt5fs/image/upload/v1615938033/img3_jiessv.png"></img>
-            <h4>Muebles pata tu felicidad</h4>
+            <h4>Muebles para tu felicidad</h4>
             <div className="d-flex">
               <p
                 style={{ fontSize: "25px", color: "gray", marginLeft: "25px" }}
