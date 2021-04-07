@@ -9,8 +9,28 @@ const AllProduct = (props) => {
     <div className="allProduct">
       <div className="allProduct__container">
         {fakeData.slice(0, 6).map((x) => {
-          if (props.upperlimit || props.lowerlimit) {
-            if (x.price > props.lowerlimit && x.price < props.upperlimit) {
+          if (!props.upperlimit && props.lowerlimit) {
+            if (x.price >= props.lowerlimit) {
+              return (
+                <ProductCard
+                  x={x}
+                  lower={props.lowerlimit}
+                  upper={props.upperlimit}
+                ></ProductCard>
+              );
+            }
+          } else if (props.upperlimit && !props.lowerlimit) {
+            if (x.price <= props.upperlimit) {
+              return (
+                <ProductCard
+                  x={x}
+                  lower={props.lowerlimit}
+                  upper={props.upperlimit}
+                ></ProductCard>
+              );
+            }
+          } else if (props.upperlimit && props.lowerlimit) {
+            if (x.price >= props.lowerlimit && x.price <= props.upperlimit) {
               return (
                 <ProductCard
                   x={x}
