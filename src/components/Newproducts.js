@@ -28,7 +28,7 @@ function Newproducts() {
     >
       <div className="d-flex justify-content-center">
         <h1 className="new">
-          Productos
+          Productos{" "}
           <p className="d-inline-block" style={{ color: "#ff6606" }}>
             nuevos
           </p>
