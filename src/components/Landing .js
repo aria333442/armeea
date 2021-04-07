@@ -72,6 +72,20 @@ function Landing() {
                       }}
                     ></img>
                   </div>
+                  <div className="blurred-container">
+                    <div className="blurred-box-2">
+                      <div>
+                        <h3>Escritorio Montessori</h3>
+                        <p>Para tus ninos</p>
+                        <div>
+                          <h3>$ 1990</h3>
+                          <Link>
+                            <ArrowForwardIcon></ArrowForwardIcon>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </SwiperSlide>
               );
             })}
@@ -89,20 +103,7 @@ function Landing() {
           <Button>Comprar ahora</Button>
         </div>
       </div>
-      <div className="blurred-container">
-        <div className="blurred-box-2">
-          <div>
-            <h3>Escritorio Montessori</h3>
-            <p>Para tus ninos</p>
-            <div>
-              <h3>$ 1990</h3>
-              <Link>
-                <ArrowForwardIcon></ArrowForwardIcon>
-              </Link>
-            </div>
-          </div>
-        </div>
-      </div>
+
       <HighProducts />
       <Newproducts />
       <Landingblog />
