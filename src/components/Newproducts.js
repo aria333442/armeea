@@ -15,7 +15,7 @@ function Newproducts() {
     infinite: true,
     autoplay: true,
     centerMode: false,
-    centerPadding: 10,
+    centerPadding: 11,
     swipe: false,
     autoplaySpeed: 3000,
     slidesToShow: 2,
@@ -28,33 +28,35 @@ function Newproducts() {
     >
       <div className="d-flex justify-content-lg-center">
         <h1 className="new">
-          Productos{" "}
+          Productos
           <p className="d-inline-block" style={{ color: "#ff6606" }}>
             nuevos
           </p>
         </h1>
       </div>
-      <div className="d-flex" style={{ marginTop: "20px" }}>
+      <div className="d-flex new__container">
         <div className="pro">
-          <h1 className="pro__title">
-            Escritorio <br></br>Montessori
-          </h1>
-          <p className="pro__desc">
-            Simple y real. Todo tiene su razón de ser.
-          </p>
-          <StarRatings
-            rating={5}
-            starDimension="22px"
-            starSpacing="6px"
-            starRatedColor="#ff6606"
-          />
-          <div className="d-flex">
-            <NavLink to="#" className="pro__but1">
-              COMPRAR
-            </NavLink>
-            <NavLink to="#" className="pro__but2">
-              ANADIR
-            </NavLink>
+          <div>
+            <h1 className="pro__title">
+              Escritorio <br></br>Montessori
+            </h1>
+            <p className="pro__desc">
+              Simple y real. Todo tiene su razón de ser.
+            </p>
+            <StarRatings
+              rating={5}
+              starDimension="22px"
+              starSpacing="6px"
+              starRatedColor="#ff6606"
+            />
+            <div className="d-flex">
+              <NavLink to="#" className="pro__but1">
+                COMPRAR
+              </NavLink>
+              <NavLink to="#" className="pro__but2">
+                ANADIR
+              </NavLink>
+            </div>
           </div>
         </div>
         <div className="sli">
@@ -62,19 +64,19 @@ function Newproducts() {
             <div>
               <img
                 src={childern}
-                style={{ width: "410px", height: "528px" }}
+                style={{ width: "95%", height: "590px" }}
               ></img>
             </div>
             <div>
               <img
                 src={childern}
-                style={{ width: "410px", height: "528px" }}
+                style={{ width: "95%", height: "590px" }}
               ></img>
             </div>
             <div>
               <img
                 src={childern}
-                style={{ width: "410px", height: "528px" }}
+                style={{ width: "95%", height: "590px" }}
               ></img>
             </div>
           </Slider>

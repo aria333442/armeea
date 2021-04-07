@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import TreeView from "@material-ui/lab/TreeView";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
@@ -15,8 +15,11 @@ const useStyles = makeStyles({
     flexDirection: "row-reverse",
   },
 });
+
 const SideBox = () => {
   const classes = useStyles();
+  const [minimum, setminimum] = useState();
+  const [maximum, setmaximum] = useState();
   const [checked, setChecked] = React.useState(false);
 
   const handleChange = (event) => {
@@ -38,14 +41,24 @@ const SideBox = () => {
             <p>Mínimo</p>
             <div>
               <p>$</p>
-              <input type="text" placeholder="549" />
+              <input
+                type="text"
+                placeholder="549"
+                value={minimum}
+                onChange={(e) => setminimum(e.target.value)}
+              />
             </div>
           </div>
           <div>
             <p>Máximo</p>
             <div>
               <p>$</p>
-              <input type="text" placeholder="549" />
+              <input
+                type="text"
+                placeholder="549"
+                value={maximum}
+                onChange={(e) => setmaximum(e.target.value)}
+              />
             </div>
           </div>
         </div>

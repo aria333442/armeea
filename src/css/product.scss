@@ -16,6 +16,8 @@
 }
 .header_container {
   background-color: #0094ff;
+  display: flex;
+  justify-content: center;
   width: 100%;
   height: 100px;
   padding: 18px 180px 0px 180px;
@@ -30,7 +32,6 @@
   }
 }
 .ProductImage_slider {
-  margin-left: 140px;
   .sliderabove__text {
     font-size: 23px;
     color: black;
@@ -236,7 +237,6 @@
 .combo__container {
   height: 400px;
   width: 650px;
-  margin-left: 150px;
   margin-top: 30px;
   .combos {
     font-family: "Roboto";
@@ -593,7 +593,7 @@
   width: 905px;
   background-color: white;
   margin-top: -2250px !important;
-  margin-left: 230px !important;
+  margin-left: 300px !important;
   z-index: 100;
   position: absolute;
   display: none;
@@ -676,7 +676,7 @@
     width: 80%;
 
     margin-top: 20px;
-    height: 540px;
+    height: 580px;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
       rgba(17, 17, 26, 0.05) 0px 8px 32px;
   }

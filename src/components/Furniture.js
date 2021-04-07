@@ -15,7 +15,7 @@ function Furniture() {
             height: "600px",
             marginTop: "70px",
           }}
-          className="d-flex"
+          className="d-flex justify-content-lg-around"
         >
           <div>
             <img

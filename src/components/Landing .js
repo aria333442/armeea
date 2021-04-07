@@ -18,7 +18,7 @@ import Landingblog from "./Landingblog";
 import Furniture from "./Furniture";
 import Messenger from "./Messenger";
 import Footer from "./Footer";
-import Navbar from "../components/Navbar";
+import Nav from "./Nav";
 
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, Autoplay]);
 
@@ -43,7 +43,7 @@ function Landing() {
       className="container-fluid ml-0 mr-0 p-0"
       style={{ marginTop: "100px", overflow: "hidden" }}
     >
-      <Navbar />
+      <Nav />
       <div className="landing">
         <div className="landing__slider">
           <Swiper
@@ -60,12 +60,12 @@ function Landing() {
                   <div className="d-flex">
                     <img
                       src={img.image1}
-                      style={{ width: "350px", height: "557px" }}
+                      style={{ width: "25%", height: "557px" }}
                     ></img>
                     <img
                       src={img.image2}
                       style={{
-                        width: "1000px",
+                        width: "75%",
                         height: "557px",
                         marginLeft: "50px",
                       }}

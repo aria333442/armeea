@@ -1,12 +1,12 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "../css/register.scss";
-import Navbar from "./Navbar";
+import Nav from "./Nav";
 
 function Register() {
   return (
     <div className="register-container">
-      <Navbar />
+      <Nav />
       <div className="inner-box">
         <h1 className="register-login">Completa tus datos</h1>
         <form>

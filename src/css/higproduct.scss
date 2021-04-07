@@ -92,14 +92,18 @@
 .ninos {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
 }
+.new__container {
+}
 .new {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
   font-size: 50px;
 }
 .pro {
   height: 530px;
-  width: 400px;
-  margin-left: 60px;
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: auto;
 }
 .pro__title {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
@@ -152,8 +156,9 @@
   text-decoration: none;
 }
 .sli {
-  height: 530px;
-  width: 830px;
+  height: 590px;
+  width: 68%;
+  padding-left: 30px;
 }
 .slick-arrow {
   background-color: $primary;
@@ -161,7 +166,8 @@
   height: 48px;
   border-radius: 50%;
   box-shadow: 5px 5px 30px lightgray;
-  margin-left: 30px;
+  margin-left: 0px;
   opacity: 2 !important;
   margin-top: 20px;
+  z-index: 100;
 }

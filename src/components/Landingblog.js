@@ -38,7 +38,7 @@ function Landingblog() {
         <Slider {...settings}>
           <div>
             <img src="https://res.cloudinary.com/dd77cqt5fs/image/upload/v1615938010/img1_uggyig.png"></img>
-            <h4>Muebles pata tu felicidad</h4>
+            <h4>Muebles para tu felicidad</h4>
             <div className="d-flex">
               <p
                 style={{ fontSize: "25px", color: "gray", marginLeft: "25px" }}
