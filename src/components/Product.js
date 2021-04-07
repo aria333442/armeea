@@ -134,7 +134,15 @@ function Product() {
           <div className="d-flex justify-content-center">
             <div className="d-flex">
               <div className="ProductImage_slider">
-                <NavLink to="/shop" className="sliderabove__text" style={{color:"black",textDecoration:"none"}}>
+                <NavLink
+                  to="/shop"
+                  className="sliderabove__text"
+                  style={{
+                    color: "black",
+                    textDecoration: "none",
+                    marginTop: "20px",
+                  }}
+                >
                   Regresar a la Tienda
                 </NavLink>
                 <div className="d-flex">

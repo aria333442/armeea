@@ -26,7 +26,7 @@ function Newproducts() {
       className="container-fluid ml-0 mr-0 p-0"
       style={{ marginTop: "70px" }}
     >
-      <div className="d-flex justify-content-lg-center">
+      <div className="d-flex justify-content-center">
         <h1 className="new">
           Productos
           <p className="d-inline-block" style={{ color: "#ff6606" }}>
