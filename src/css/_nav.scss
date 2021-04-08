@@ -1,5 +1,10 @@
 @import "../css//mixins";
 @import "./variable";
+@font-face {
+  font-family: "HomepageBaukasten-Book";
+  src: url("../font/HomepageBaukasten-Book.ttf");
+  font-style: normal;
+}
 .nav {
   background-color: #ff6606;
   height: 100px;
@@ -13,10 +18,7 @@
   left: 0px;
   z-index: 10000;
   padding-left: 70px !important;
-  @include breakpoints-down(large) {
-    background-color: red;
-    padding: 0px 3%;
-  }
+
   &__left {
     flex: 1;
     display: flex;
@@ -42,7 +44,7 @@
       border: none;
       outline: none;
       padding-bottom: 5px;
-      width: 200px;
+      width: 100px;
       font-size: 18px;
       border-bottom: 1px solid white;
     }
@@ -128,4 +130,136 @@
   transform: rotate(-45deg);
   transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1),
     transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+.make__ham {
+  display: none;
+  width: 40px;
+  height: 30px;
+  margin-top: -10px;
+  margin-right: 10px;
+  .line__1 {
+    border-bottom: 4px solid white;
+  }
+  .line__2 {
+    border-bottom: 4px solid white;
+    margin-top: -8px;
+  }
+  .line__3 {
+    border-bottom: 4px solid white;
+    margin-top: -8px;
+  }
+}
+.gggcss {
+  list-style: none !important;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-family: "HomepageBaukasten-Book";
+}
+.gggcsses {
+  margin-top: 100px;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .make__ham {
+    display: block;
+    width: 40px;
+    height: 30px;
+    margin-top: -10px;
+    .line__1 {
+      border-bottom: 4px solid white;
+    }
+    .line__2 {
+      border-bottom: 4px solid white;
+      margin-top: -8px;
+    }
+    .line__3 {
+      border-bottom: 4px solid white;
+      margin-top: -8px;
+    }
+  }
+  .gggcss {
+    list-style: none !important;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: "HomepageBaukasten-Book";
+  }
+  .gggcsses {
+    margin-top: 100px;
+  }
+}
+@media (max-width: 767px) {
+  .nav {
+    width: 100% !important;
+    background-color: #ff6606;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
+    .imgray {
+      width: 25px;
+      margin-left: -120px;
+      margin-top: 10px;
+    }
+    .nav__right {
+      width: 70%;
+      margin-left: -200px;
+      margin-top: 10px;
+      .loginss {
+        margin-left: -20px;
+        margin-right: 2px;
+      }
+      .registers {
+        margin-left: 10px;
+        margin-right: 2px;
+      }
+      .shhopp {
+        margin-left: -8px;
+      }
+      > input {
+        color: white;
+        background: none;
+        border: none;
+        outline: none;
+        padding-bottom: 5px;
+        width: 130px;
+        font-size: 18px;
+        border-bottom: 1px solid white;
+      }
+      ::placeholder {
+        color: lightgray;
+      }
+    }
+  }
+
+  .make__ham {
+    display: block;
+    width: 25px;
+    height: 5px;
+    margin-top: -117px;
+    margin-left: 240px;
+    .line__1 {
+      border-bottom: 4px solid white;
+    }
+    .line__2 {
+      border-bottom: 4px solid white;
+      margin-top: -12px;
+    }
+    .line__3 {
+      border-bottom: 4px solid white;
+      margin-top: -12px;
+    }
+  }
+  .gggcss {
+    list-style: none !important;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: "HomepageBaukasten-Book";
+  }
+  .gggcsses {
+    margin-top: 100px;
+  }
 }

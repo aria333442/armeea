@@ -4,6 +4,7 @@
   margin-top: 100px;
   background-color: #222222;
   height: 336px;
+  width: 100%;
   .footer__logo {
     margin-left: 101px;
     margin-top: 35px;
@@ -86,6 +87,102 @@
         color: white;
         font-size: 30px;
         margin-top: -9px;
+      }
+    }
+  }
+}
+@media (min-width: 768px) and (max-width: 1299px) {
+  .footer {
+    display: flex;
+    margin-top: 100px;
+    background-color: #222222;
+
+    width: 100%;
+    justify-content: space-around;
+    .footer__logo {
+      margin-top: 35px;
+      > img {
+        height: 100px;
+        width: 50px;
+        margin-left: -40px;
+      }
+    }
+    .footer__information {
+      margin-top: 35px;
+      width: 70px;
+
+      .footer__header {
+        font-size: 20px;
+        color: white;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
+          "Helvetica Neue" !important;
+      }
+      .below__header {
+        color: white;
+        margin-top: 30px;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
+          "Helvetica Neue" !important;
+      }
+      .below__header2 {
+        color: white;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
+          "Helvetica Neue" !important;
+      }
+      .footer__visa {
+        margin-top: -20px;
+        color: blue;
+        font-size: 40px;
+      }
+      .footer__master {
+        margin-top: -20px;
+        font-size: 40px;
+
+        color: white;
+      }
+      .footer__location {
+        color: white;
+        font-size: 20px;
+        margin-top: -7px;
+
+        margin-right: 10px;
+      }
+      .Footer__input {
+        height: 40px;
+        border-radius: 5px;
+        border: none;
+        margin-top: 5px;
+      }
+    }
+    .footer__information2 {
+      margin-top: 35px;
+      width: 200px;
+      margin-right: 70px;
+      .footer__header {
+        color: white;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
+          "Helvetica Neue" !important;
+      }
+      .Footer__input {
+        height: 40px;
+        border-radius: 5px;
+        border: none;
+        margin-top: 10px;
+        width: 130px;
+        padding: 10px;
+      }
+      .footer__button {
+        height: 40px;
+        width: 40px;
+        margin-top: 10px;
+        border: none;
+
+        background-color: #ff6606;
+        border-radius: 5px;
+        .button__icon {
+          color: white;
+          font-size: 30px;
+          margin-top: -9px;
+        }
       }
     }
   }

@@ -11,6 +11,7 @@ import "../css/higproduct.scss";
 import ArrowForwardIcon from "@material-ui/icons/ArrowForward";
 import { useDispatch, useSelector } from "react-redux";
 import { getcat } from "../actions";
+import Media from "react-media";
 
 const HighProducts = () => {
   const dispatch = useDispatch();
@@ -18,11 +19,10 @@ const HighProducts = () => {
     dispatch(getcat());
   }, []);
 
-  const getcategory = useSelector((state) => state.getcategory);
   const Card = () => {
     return (
       <NavLink to="/shop">
-        <div style={{ padding: "0px" }}>
+        <div style={{ padding: "0px" }} className="ipad">
           <img
             src="https://res.cloudinary.com/dd77cqt5fs/image/upload/v1617738245/desk_urbkuu.png"
             style={{ width: "372px", height: "478px" }}
@@ -87,7 +87,15 @@ const HighProducts = () => {
       </NavLink>
     );
   };
-
+  const settings2 = {
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    initialSlide: 1,
+    centerPadding: 1,
+    centerMode: false,
+  };
   const settings = {
     dots: false,
     focusOnSelect: true,
@@ -117,59 +125,181 @@ const HighProducts = () => {
           initialSlide: 1,
         },
       },
+      {
+        breakpoint: 320,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1,
+        },
+      },
     ],
   };
   return (
     <div>
-      <div className="highProduct">
-        <div className="highProduct__top">
-          <div>
-            <img src={grid1} alt="" />
-            <div>
-              <h3>Creamos</h3>
-              <p>Disenamos nuestros muebles</p>
+      <Media query="(min-width:1300px)">
+        {(matches) => {
+          return matches ? (
+            <div className="highProduct">
+              <div className="highProduct__top">
+                <div>
+                  <img src={grid1} alt="" />
+                  <div>
+                    <h3>Creamos</h3>
+                    <p>Disenamos nuestros muebles</p>
+                  </div>
+                </div>
+                <div>
+                  <img src={grid2} alt="" />
+                  <div>
+                    <h3>Fabricamos</h3>
+                    <p>Directo desde la fabrica</p>
+                  </div>
+                </div>
+                <div>
+                  <img src={grid3} alt="" />
+                  <div>
+                    <h3>Te ayudamos</h3>
+                    <p>Consultenos</p>
+                  </div>
+                </div>
+                <div>
+                  <img src={grid4} alt="" />
+                  <div>
+                    <h3>Enviamos</h3>
+                    <p>2/5 Dias de entrega</p>
+                  </div>
+                </div>
+              </div>
+              <div className="highProduct__slider">
+                <div>
+                  <h2>Productos de alta</h2>
+                </div>
+                <div className="swiper__box">
+                  <Slider {...settings} onChange={() => alert()}>
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                  </Slider>
+                </div>
+                <div>
+                  <Link className="btn">IR A LA TIENDA</Link>
+                </div>
+              </div>
             </div>
-          </div>
-          <div>
-            <img src={grid2} alt="" />
-            <div>
-              <h3>Fabricamos</h3>
-              <p>Directo desde la fabrica</p>
+          ) : null;
+        }}
+      </Media>
+      <Media query="(min-width:768px) and (max-width:1299px)">
+        {(matches) => {
+          return matches ? (
+            <div className="highProduct">
+              <div className="highProduct__top">
+                <div>
+                  <img src={grid1} alt="" />
+                  <div>
+                    <h3>Creamos</h3>
+                    <p>Disenamos nuestros muebles</p>
+                  </div>
+                </div>
+                <div>
+                  <img src={grid2} alt="" />
+                  <div>
+                    <h3>Fabricamos</h3>
+                    <p>Directo desde la fabrica</p>
+                  </div>
+                </div>
+                <div>
+                  <img src={grid3} alt="" />
+                  <div>
+                    <h3>Te ayudamos</h3>
+                    <p>Consultenos</p>
+                  </div>
+                </div>
+                <div>
+                  <img src={grid4} alt="" />
+                  <div>
+                    <h3>Enviamos</h3>
+                    <p>2/5 Dias de entrega</p>
+                  </div>
+                </div>
+              </div>
+              <div className="highProduct__slider">
+                <div>
+                  <h2>Productos de alta</h2>
+                </div>
+                <div className="swiper__box">
+                  <Slider {...settings} onChange={() => alert()}>
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                  </Slider>
+                </div>
+                <div>
+                  <Link className="btn">IR A LA TIENDA</Link>
+                </div>
+              </div>
             </div>
-          </div>
-          <div>
-            <img src={grid3} alt="" />
-            <div>
-              <h3>Te ayudamos</h3>
-              <p>Consultenos</p>
+          ) : null;
+        }}
+      </Media>
+      <Media query="(max-width:767px)">
+        {(matches) => {
+          return matches ? (
+            <div className="highProduct">
+              <div className="top">
+                <div>
+                  <img src={grid1} alt="" />
+                  <div>
+                    <h3>Creamos</h3>
+                    <p>Disenamos nuestros muebles</p>
+                  </div>
+                </div>
+                <div>
+                  <img src={grid2} alt="" />
+                  <div>
+                    <h3>Fabricamos</h3>
+                    <p>Directo desde la fabrica</p>
+                  </div>
+                </div>
+                <div>
+                  <img src={grid3} alt="" />
+                  <div>
+                    <h3>Te ayudamos</h3>
+                    <p>Consultenos</p>
+                  </div>
+                </div>
+                <div>
+                  <img src={grid4} alt="" />
+                  <div>
+                    <h3>Enviamos</h3>
+                    <p>2/5 Dias de entrega</p>
+                  </div>
+                </div>
+              </div>
+              <div className="highProduct__slider">
+                <div>
+                  <h2>Productos de alta</h2>
+                </div>
+                <div className="slidd">
+                  <Slider {...settings2}>
+                    <Card />
+                    <Card />
+                    <Card />
+                  </Slider>
+                </div>
+                <div>
+                  <Link className="btn">IR A LA TIENDA</Link>
+                </div>
+              </div>
             </div>
-          </div>
-          <div>
-            <img src={grid4} alt="" />
-            <div>
-              <h3>Enviamos</h3>
-              <p>2/5 Dias de entrega</p>
-            </div>
-          </div>
-        </div>
-        <div className="highProduct__slider">
-          <div>
-            <h2>Productos de alta</h2>
-          </div>
-          <div className="swiper__box">
-            <Slider {...settings} onChange={() => alert()}>
-              <Card />
-              <Card />
-              <Card />
-              <Card />
-              <Card />
-            </Slider>
-          </div>
-          <div>
-            <Link className="btn">IR A LA TIENDA</Link>
-          </div>
-        </div>
-      </div>
+          ) : null;
+        }}
+      </Media>
     </div>
   );
 };
