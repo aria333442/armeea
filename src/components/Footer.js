@@ -149,6 +149,66 @@ function Footer() {
           ) : null;
         }}
       </Media>
+      <Media query="(max-width:767px)">
+        {(matches) => {
+          return matches ? (
+            <div
+              className="container-fluid m-0 p-0"
+              style={{ overflow: "hidden" }}
+            >
+              <div className="footers">
+                <div className="footer__logos">
+                  <img src={image}></img>
+                </div>
+                <div className="footer__informations">
+                  <h3 className="footer__headers">Información</h3>
+                  <p className="below__headers">Zonas de envío</p>
+                  <p className="below__header2s">Política de cookies</p>
+                  <p className="below__header2s">
+                    Condiciones de uso y compra{" "}
+                  </p>
+                  <p className="below__header2s">Cómo hacer un pedido</p>
+                  <p className="below__header2s">Métodos de pago</p>
+                </div>
+                <div className="footer__informations3">
+                  <h3 className="footer__headers">Cuenta</h3>
+                  <p className="below__headers">Mis compras</p>
+                  <p className="below__header2s">MIs direcciones</p>
+                  <p className="below__header2s">Mis datos personales </p>
+                  <div className="d-flex">
+                    <p className="footer__visas">
+                      <FaCcVisa />
+                    </p>
+                    <p className="footer__masters">
+                      <FaCcMastercard />
+                    </p>
+                  </div>
+                </div>
+                <div className="footer__informations4">
+                  <h3 className="footer__headers">Contacto</h3>
+                  <p className="below__headers">
+                    Mariano Escobedo 2631 col. Victoria Monterrey N.L.
+                  </p>
+                  <div className="d-flex">
+                    <p className="footer__locations">
+                      <HiLocationMarker />
+                    </p>
+                    <p className="below__header2s">Mexico</p>
+                  </div>
+                  <div className="d-flex">
+                    <p className="footer__locations">
+                      <BiPhone />
+                    </p>
+                    <p className="below__header2s">(81) 8245 4321</p>
+                  </div>
+                  <p className="below__header2s">VENTAS@ARMEAMUEBLES.COM </p>
+                  <p className="below__header2s">ARMEAMUEBLES.COM</p>
+                </div>
+              </div>
+            </div>
+          ) : null;
+        }}
+      </Media>
     </div>
   );
 }

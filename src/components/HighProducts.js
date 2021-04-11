@@ -21,70 +21,142 @@ const HighProducts = () => {
 
   const Card = () => {
     return (
-      <NavLink to="/shop">
-        <div style={{ padding: "0px" }} className="ipad">
-          <img
-            src="https://res.cloudinary.com/dd77cqt5fs/image/upload/v1617738245/desk_urbkuu.png"
-            style={{ width: "372px", height: "478px" }}
-          ></img>
-          <div
-            style={{
-              marginTop: "-160px",
-              marginLeft: "20px",
-              zIndex: 10,
-              position: "fixed",
-              backgroundColor: "white",
-              opacity: 0.9,
-              width: "250px",
-              height: "140px",
-            }}
-            className="d-flex"
-          ></div>
-          <div className="d-flex xor">
-            <div className="ninos">
-              <p
-                style={{
-                  fontSize: "21px",
-                  opacity: 0.7,
-                  marginTop: "-130px",
-                  position: "absolute",
-                  zIndex: 12,
-                  marginLeft: "55px",
-                  color: "black",
-                }}
-              >
-                Categoria
-              </p>
-              <p
-                style={{
-                  fontSize: "35px",
-                  opacity: 1,
-                  marginTop: "-110px",
-                  position: "absolute",
-                  zIndex: 12,
-                  marginLeft: "55px",
-                  color: "black",
-                }}
-              >
-                Mascotas
-              </p>
-            </div>
-            <Link
-              style={{
-                marginTop: "-66px",
-                marginLeft: "270px",
-                padding: "10px",
-                position: "absolute",
-                backgroundColor: "#ff6606",
-                paddingRight: "12px",
-                color: "white",
-              }}
-            >
-              <ArrowForwardIcon></ArrowForwardIcon>
-            </Link>
-          </div>
-        </div>
-      </NavLink>
+      <Media query="(max-width:767px)">
+        {(matches) => {
+          return matches ? (
+            <NavLink to="/shop">
+              <div style={{ padding: "0px" }} className="ipad">
+                <img
+                  src="https://res.cloudinary.com/dd77cqt5fs/image/upload/v1617738245/desk_urbkuu.png"
+                  style={{ width: "372px", height: "478px" }}
+                ></img>
+                <div
+                  style={{
+                    marginTop: "-280px",
+                    marginLeft: "10px",
+                    zIndex: 10,
+                    position: "fixed",
+                    backgroundColor: "white",
+                    opacity: 0.9,
+                    width: "180px",
+                    height: "100px",
+                  }}
+                  className="d-flex"
+                ></div>
+                <div className="d-flex xor">
+                  <div className="ninos ninos2">
+                    <p
+                      style={{
+                        fontSize: "21px",
+                        opacity: 0.7,
+                        marginTop: "-270px",
+                        position: "absolute",
+                        zIndex: 12,
+                        marginLeft: "35px",
+                        color: "black",
+                      }}
+                    >
+                      Categoria
+                    </p>
+                    <p
+                      style={{
+                        fontSize: "35px",
+                        opacity: 1,
+                        marginTop: "-240px",
+                        position: "absolute",
+                        zIndex: 12,
+                        marginLeft: "35px",
+                        color: "black",
+                      }}
+                    >
+                      Mascotas
+                    </p>
+                  </div>
+                  <Link
+                    style={{
+                      marginTop: "-226px",
+                      marginLeft: "760px",
+                      padding: "10px",
+                      backgroundColor: "#ff6606",
+                      paddingRight: "12px",
+                      color: "white",
+                      zIndex: 100,
+                      position: "relative",
+                    }}
+                  >
+                    <ArrowForwardIcon></ArrowForwardIcon>
+                  </Link>
+                </div>
+              </div>
+            </NavLink>
+          ) : (
+            <NavLink to="/shop">
+              <div style={{ padding: "0px" }} className="ipad">
+                <img
+                  src="https://res.cloudinary.com/dd77cqt5fs/image/upload/v1617738245/desk_urbkuu.png"
+                  style={{ width: "372px", height: "478px" }}
+                ></img>
+                <div
+                  style={{
+                    marginTop: "-160px",
+                    marginLeft: "20px",
+                    zIndex: 10,
+                    position: "fixed",
+                    backgroundColor: "white",
+                    opacity: 0.9,
+                    width: "250px",
+                    height: "140px",
+                  }}
+                  className="d-flex"
+                ></div>
+                <div className="d-flex xor">
+                  <div className="ninos ninos2">
+                    <p
+                      style={{
+                        fontSize: "21px",
+                        opacity: 0.7,
+                        marginTop: "-130px",
+                        position: "absolute",
+                        zIndex: 12,
+                        marginLeft: "55px",
+                        color: "black",
+                      }}
+                    >
+                      Categoria
+                    </p>
+                    <p
+                      style={{
+                        fontSize: "35px",
+                        opacity: 1,
+                        marginTop: "-110px",
+                        position: "absolute",
+                        zIndex: 12,
+                        marginLeft: "55px",
+                        color: "black",
+                      }}
+                    >
+                      Mascotas
+                    </p>
+                  </div>
+                  <Link
+                    style={{
+                      marginTop: "-66px",
+                      marginLeft: "270px",
+                      padding: "10px",
+                      position: "absolute",
+                      backgroundColor: "#ff6606",
+                      paddingRight: "12px",
+                      color: "white",
+                    }}
+                  >
+                    <ArrowForwardIcon></ArrowForwardIcon>
+                  </Link>
+                </div>
+              </div>
+            </NavLink>
+          );
+        }}
+      </Media>
     );
   };
   const settings2 = {

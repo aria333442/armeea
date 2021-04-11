@@ -92,6 +92,15 @@
 .ninos {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
 }
+.ninos2 {
+  font-size: "21px";
+  opacity: 0.7;
+  margin-top: "-130px";
+  position: "absolute";
+  z-index: 12;
+  margin-left: "55px";
+  color: "black";
+}
 
 .new {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
@@ -549,4 +558,13 @@
     margin-right: 40px;
     z-index: -1;
   }
+}
+.ninos3 {
+  font-size: "35px";
+  opacity: 1;
+  margin-top: "-110px";
+  position: "absolute";
+  z-index: 12;
+  margin-left: "55px";
+  color: "black";
 }
