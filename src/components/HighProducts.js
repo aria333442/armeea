@@ -30,62 +30,64 @@ const HighProducts = () => {
                   src="https://res.cloudinary.com/dd77cqt5fs/image/upload/v1617738245/desk_urbkuu.png"
                   style={{ width: "372px", height: "478px" }}
                 ></img>
-                <div
-                  style={{
-                    marginTop: "-280px",
-                    marginLeft: "10px",
-                    zIndex: 10,
-                    position: "fixed",
-                    backgroundColor: "white",
-                    opacity: 0.9,
-                    width: "180px",
-                    height: "100px",
-                  }}
-                  className="d-flex"
-                ></div>
-                <div className="d-flex xor">
-                  <div className="ninos ninos2">
-                    <p
-                      style={{
-                        fontSize: "21px",
-                        opacity: 0.7,
-                        marginTop: "-270px",
-                        position: "absolute",
-                        zIndex: 12,
-                        marginLeft: "35px",
-                        color: "black",
-                      }}
-                    >
-                      Categoria
-                    </p>
-                    <p
-                      style={{
-                        fontSize: "35px",
-                        opacity: 1,
-                        marginTop: "-240px",
-                        position: "absolute",
-                        zIndex: 12,
-                        marginLeft: "35px",
-                        color: "black",
-                      }}
-                    >
-                      Mascotas
-                    </p>
-                  </div>
+                <div>
+                  <div
+                    style={{
+                      marginTop: "-280px",
+                      marginLeft: "10px",
+                      zIndex: 10,
+                      position: "fixed",
+                      backgroundColor: "white",
+                      opacity: 0.9,
+                      width: "180px",
+                      height: "100px",
+                    }}
+                    className="d-flex"
+                  ></div>
                   <Link
                     style={{
                       marginTop: "-226px",
-                      marginLeft: "760px",
+                      marginLeft: "40px",
                       padding: "10px",
                       backgroundColor: "#ff6606",
                       paddingRight: "12px",
                       color: "white",
                       zIndex: 100,
-                      position: "relative",
+                      position: "absolute",
                     }}
                   >
                     <ArrowForwardIcon></ArrowForwardIcon>
                   </Link>
+                  <div className="d-flex xor">
+                    <div className="ninos ninos2">
+                      <p
+                        style={{
+                          fontSize: "21px",
+                          opacity: 0.7,
+                          marginTop: "-270px",
+                          position: "absolute",
+                          zIndex: 12,
+                          marginLeft: "35px",
+                          color: "black",
+                        }}
+                      >
+                        Categoria
+                      </p>
+                      <p
+                        style={{
+                          fontSize: "35px",
+                          opacity: 1,
+                          marginTop: "-240px",
+                          position: "absolute",
+                          zIndex: 12,
+                          marginLeft: "35px",
+                          color: "black",
+                        }}
+                      >
+                        Mascotas
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </NavLink>

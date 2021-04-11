@@ -257,15 +257,16 @@ function Furniture() {
                     }}
                   >
                     <div>
-                      <img
-                        src="https://res.cloudinary.com/dd77cqt5fs/image/upload/v1615944769/fur-1_xdxcjj.png"
-                        style={{
-                          marginLeft: "0px",
-                          width: "350px",
-                          height: "313px",
-                        }}
-                      ></img>
-                      <div className="d-flex">
+                      <div className="d-flex justify-content-center">
+                        <img
+                          src="https://res.cloudinary.com/dd77cqt5fs/image/upload/v1615944769/fur-1_xdxcjj.png"
+                          style={{
+                            width: "350px",
+                            height: "313px",
+                          }}
+                        ></img>
+                      </div>
+                      <div className="d-flex justify-content-center">
                         <img
                           src="https://res.cloudinary.com/dd77cqt5fs/image/upload/v1615944786/fur-2_x4zhyu.png"
                           style={{
