@@ -53,8 +53,11 @@ const Shop = () => {
       <div className="shop__head">
         <h2>Tienda de</h2>
       </div>
-      <div className="d-flex" style={{ width: "100%" }}>
-        <div className="d-flex justify-content-center" style={{ width: "20%" }}>
+      <div className="d-flex justify-content-center" style={{ width: "100%" }}>
+        <div
+          className="d-flex justify-content-center SASSO"
+          style={{ width: "20%" }}
+        >
           <div className="sideBox">
             <div className="sideBox__top">
               <h2>Buscar</h2>
