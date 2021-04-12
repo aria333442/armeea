@@ -71,7 +71,7 @@ const AllProduct = (props) => {
             <div className="allProduct">
               <div className="allProduct__container">
                 <div className="row">
-                  {fakeData.slice(0, 6).map((x) => {
+                  {fakeData.slice(0, 3).map((x) => {
                     if (!props.upperlimit && props.lowerlimit) {
                       if (x.price >= props.lowerlimit) {
                         return (
