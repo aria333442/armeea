@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "../css/product.scss";
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
 import StarRatings from "react-star-ratings";
@@ -17,6 +17,9 @@ function Product() {
   const [formstates, setformstates] = useState(0);
   const [checkout, setcheckout] = useState(0);
   const [productdetailmodel, setproductdetailmodel] = useState(false);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const [productdetail, setproductdetail] = useState({
     image:
       "https://res.cloudinary.com/dd77cqt5fs/image/upload/v1616986969/bigimage_vjjqmb.png",

@@ -145,7 +145,9 @@ function Check() {
               <div className="d-flex justify-content-center icc">
                 <img src="https://res.cloudinary.com/dd77cqt5fs/image/upload/v1617186328/dd_orrufu.png"></img>
               </div>
-              <h3 className="pays">Mercado pago</h3>
+              <div className="d-flex justify-content-center">
+                <h3 className="pays">Mercado pago</h3>
+              </div>
               <div class="form-group">
                 <label for="exampleInputPassword1" className="lableee">
                   Numero de tarjeta
@@ -157,7 +159,7 @@ function Check() {
                   placeholder="Ingrese su email"
                 />
               </div>
-              <div className="d-flex">
+              <div className="">
                 <div>
                   <div class="form-group">
                     <label for="exampleInputPassword1" className="lableeee">
@@ -186,7 +188,7 @@ function Check() {
                       Fecha de vencimeinto
                     </label>
                   </div>
-                  <div className="d-flex">
+                  <div className="">
                     <div className="d-flex qas">
                       <input
                         type="text"
@@ -203,7 +205,7 @@ function Check() {
                       Titular
                     </label>
                   </div>
-                  <div className="d-flex">
+                  <div className="">
                     <div className="d-flex qas">
                       <input
                         type="text"
@@ -218,8 +220,8 @@ function Check() {
                       Codigo de seguridad
                     </label>
                   </div>
-                  <div className="d-flex">
-                    <div className="d-flex qas">
+                  <div className="">
+                    <div className=" qas">
                       <input
                         type="text"
                         class="form-controlS"

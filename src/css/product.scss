@@ -2615,12 +2615,13 @@
           font-family: "HomepageBaukasten-Book";
           color: white;
           background-color: #ff6606;
-          padding: 12px 40px 12px 40px;
+          padding: 8px 20px 8px 20px;
           border-radius: 10px;
           position: absolute;
           font-size: 20px;
-          margin-top: 20px;
-          margin-left: 160px;
+          margin-top: 150px;
+          margin-left: 0px;
+          margin-bottom: 20px !important;
         }
       }
     }
@@ -2630,46 +2631,46 @@
   }
   .gateway__title {
     font-family: "HomepageBaukasten-Book";
-    margin-left: 40px;
+    margin-left: 10px;
     margin-top: 40px;
-    position: absolute;
-    font-size: 24px;
+    position: static;
+    font-size: 18px;
     font-weight: bolder;
   }
   .icc {
-    margin-top: 110px;
-    position: absolute;
-    margin-left: 340px;
+    margin-top: 50px;
+    position: static;
+    margin-left: 40px;
   }
   .pays {
     font-family: "HomepageBaukasten-Book";
     margin-top: 40px;
-    margin-top: 180px;
-    position: absolute;
-    margin-left: 280px;
+    margin-top: 10px;
+    position: static;
+    margin-left: 30px;
     font-size: 25px;
   }
   .second {
     .lableee {
-      margin-top: 230px;
-      margin-left: 40px;
+      margin-top: 30px;
+      margin-left: 10px;
       font-family: "HomepageBaukasten-Book";
       font-size: 17px;
       font-weight: bold;
     }
     .form-control {
-      margin-left: 40px;
-      width: 88% !important;
+      margin-left: 10px;
+      width: 90% !important;
       background-color: #f4f5f7 !important;
       font-family: "RegencieLight" !important;
     }
     .select {
-      margin-left: 30px;
+      margin-left: 10px;
       width: 100px;
     }
     .lableeee {
       margin-top: 30px;
-      margin-left: 40px;
+      margin-left: 10px;
       font-family: "HomepageBaukasten-Book";
       font-size: 17px;
       font-weight: bold;
@@ -2687,9 +2688,9 @@
       font-family: "RegencieLight" !important;
       border: none;
       border-radius: 5px;
-      width: 330px !important;
+      width: 90% !important;
       padding-left: 10px;
-      margin-left: 40px;
+      margin-left: 10px;
       height: 35px;
     }
     .form-controlS {
@@ -2697,9 +2698,9 @@
       font-family: "RegencieLight" !important;
       border: none;
       border-radius: 5px;
-      width: 180px !important;
+      width: 90% !important;
       padding-left: 10px;
-      margin-left: 40px;
+      margin-left: 10px;
       height: 35px;
     }
     .qas {
@@ -2707,13 +2708,12 @@
     }
   }
   .form__container2 {
-    margin-left: 70px;
-    width: 85%;
+    margin-left: 0px;
+    width: 100%;
 
     margin-top: 20px;
     height: 590px;
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
-      rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    box-shadow: none;
   }
   .form__container3 {
     margin-left: 70px;
