@@ -169,6 +169,7 @@
     overflow-y: auto;
     min-height: 80vh;
     margin-left: 20px;
+    z-index: 1;
     &__top {
       margin-bottom: 20px;
       > h2 {

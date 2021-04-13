@@ -342,14 +342,15 @@
       margin-right: 90px;
     }
     .video1 {
-      width: 200px;
+      width: 50%;
       height: 150px;
       margin-top: 10px;
-      margin-left: 10px;
+      margin-left: 5px;
     }
     .video2 {
+      width: 50%;
       margin-top: 10px;
-      margin-left: 90px;
+      margin-left: 10px;
     }
     .Beneficios {
       font-family: "HomepageBaukasten-Book";
@@ -463,10 +464,8 @@
   }
 }
 .similar {
-  height: 500px;
   margin-top: 110px;
-  width: 80%;
-  margin-left: 150px;
+  width: 100%;
   .similares {
     font-family: "HomepageBaukasten-Book";
     font-size: 37px;
@@ -996,5 +995,1852 @@
     font-size: 20px;
     font-weight: bold;
     color: #ff6606;
+  }
+}
+@media (min-width: 768px) and (max-width: 1299px) {
+  .header_container {
+    background-color: #0094ff;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    padding: 18px 100px 0px 100px;
+    .header_text {
+      margin-left: 40px;
+      color: white;
+      font-size: 20px;
+      font-family: "Roboto";
+    }
+    .inner__span {
+      font-size: 18px;
+    }
+  }
+  .product__upper {
+    width: 100%;
+    .ProductImage_slider {
+      width: 47%;
+      margin-left: 30px;
+      .sliderabove__text {
+        font-size: 23px;
+        color: black;
+        margin-top: 60px !important;
+        font-family: "RegencieLight";
+      }
+      .small_images {
+        height: 400px;
+        width: 10%;
+
+        .slider__image {
+          width: 90px !important;
+          margin-top: 15px;
+          height: 80px !important;
+          .imga {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+      .big__image {
+        margin-left: 20px;
+        margin-top: 15px;
+        height: 360px;
+        width: 50%;
+        .BIGIMAGE {
+          width: 100%;
+          height: 250px;
+          margin-left: 100px;
+          margin-top: 40px;
+        }
+        .arrow__border {
+          position: absolute;
+          margin-top: 165px;
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          margin-left: 55px;
+          background-color: #ff6606;
+
+          .left__arrow {
+            position: absolute;
+            font-size: 40px;
+            font-weight: 100;
+            margin-top: -19.5px;
+            border-radius: 50%;
+            margin-left: -6px;
+            color: white;
+          }
+        }
+        .arrow__border2 {
+          position: relative;
+          margin-top: -130px;
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          margin-left: 150%;
+          background-color: #ff6606;
+          .left__arrow2 {
+            position: absolute;
+            font-size: 40px;
+            font-weight: 100;
+            margin-top: -19px;
+            border-radius: 50%;
+            margin-left: -3px;
+            color: white;
+          }
+        }
+      }
+    }
+    .description__container {
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+      margin-top: 95px;
+      width: 45%;
+      height: 385px;
+      padding: 15px;
+      .header {
+        font-family: "Roboto";
+        font-size: 27px;
+      }
+      .star {
+        margin-top: -15px;
+      }
+      .openions {
+        font-family: "HomepageBaukasten-Book";
+        margin-top: -9px;
+        margin-left: 20px;
+        font-size: 15px;
+      }
+      .cutprice {
+        margin-top: 10px;
+        text-decoration-line: line-through;
+        font-family: "Roboto";
+      }
+      .offer {
+        margin-top: 10px;
+        margin-left: 10px;
+        font-family: "Roboto";
+      }
+      .co {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: brown;
+        margin-right: 10px;
+      }
+      .co1 {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: lightblue;
+        margin-right: 10px;
+      }
+      .co2 {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: black;
+        margin-right: 10px;
+      }
+      .co3 {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: lightgrey;
+        margin-right: 10px;
+      }
+      .lef {
+        font-size: 20px;
+        margin-top: -10px;
+        margin-left: 20px;
+      }
+      .lef2 {
+        font-size: 20px;
+        margin-top: -11px;
+      }
+      .quantity {
+        font-family: "Roboto";
+        font-size: 13px;
+        margin-top: -3px;
+      }
+      .new__price {
+        margin-top: -15px;
+        margin-bottom: 10px;
+      }
+      .desc {
+        font-family: "HomepageBaukasten-Book";
+        font-size: 16px;
+        margin-top: -10px;
+      }
+      .des {
+        font-family: "Roboto";
+        font-size: 13px;
+        margin-top: -12px;
+      }
+      .COMPRAR {
+        font-family: "HomepageBaukasten-Book";
+        background-color: #ff6606;
+        color: white;
+        padding: 10px 30px 10px 30px;
+        border-radius: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+        cursor: pointer;
+      }
+      .ELIMINAR {
+        font-family: "HomepageBaukasten-Book";
+        background-color: white;
+        color: red;
+        padding: 10px 25px 10px 25px;
+        border-radius: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+        border: 1px solid red;
+        position: absolute;
+        margin-left: 190px;
+        cursor: pointer;
+      }
+    }
+  }
+  .combo__review {
+    width: 100%;
+    .combo__container {
+      height: 400px;
+      width: 55%;
+      margin-top: 30px;
+      margin-left: 10px;
+      .combos {
+        font-family: "Roboto";
+        color: #ff6606;
+        font-size: 25px;
+        margin-left: 20px;
+        font-family: 900;
+      }
+      .combo__Image {
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+          rgba(17, 17, 26, 0.05) 0px 8px 32px;
+        width: 140px;
+        height: 160px;
+        margin-top: 20px;
+      }
+      .inner {
+        width: 80px;
+        height: 90px;
+        margin-top: 10px;
+      }
+      .combo__Image2 {
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+          rgba(17, 17, 26, 0.05) 0px 8px 32px;
+        width: 140px;
+        height: 160px;
+        margin-top: 20px;
+        margin-left: 10px;
+      }
+      .imgss {
+        width: 90%;
+        height: 100%;
+        margin-left: -5px;
+      }
+      .plus {
+        color: #ff6606;
+        font-size: 40px;
+        margin-top: 80px;
+        margin-left: 10px;
+      }
+      .combo__rating {
+        margin-left: 0px;
+        margin-top: -5px;
+      }
+      .combo__text {
+        font-family: "Roboto";
+        font-size: 12px;
+        margin-top: -15px;
+      }
+      .discount {
+        font-family: "Roboto";
+        margin-left: 30px;
+        margin-top: 20px;
+      }
+      .combo__price {
+        font-family: "Roboto";
+        font-size: 23px;
+        font-weight: bolder;
+      }
+      .combo__discount {
+        font-family: "Roboto";
+        color: #ff6606;
+        font-size: 23px;
+        margin-left: 5px;
+      }
+      .combo__link {
+        color: white;
+        background-color: #ff6606;
+        font-family: "HomepageBaukasten-Book";
+        margin-left: 30px;
+        padding: 10px 20px 10px 20px;
+        border-radius: 10px;
+      }
+      .combo__links {
+        color: #ff6606;
+        background-color: white;
+        font-family: "HomepageBaukasten-Book";
+        border: 1px solid #ff6606;
+        margin-left: 30px;
+        padding: 10px 20px 10px 20px;
+        border-radius: 10px;
+        margin-top: 20px;
+        position: absolute;
+      }
+      .below__combo {
+        width: 100%;
+        height: 1000px;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+          rgba(17, 17, 26, 0.05) 0px 8px 32px;
+        margin-top: 30px;
+        border: 1px solid rgba(97, 97, 97, 0.14);
+        padding: 10px;
+        .below_header {
+          font-family: "HomepageBaukasten-Book";
+          font-weight: bolder;
+          font-size: 25px;
+          margin-top: 10px;
+          margin-left: 10px;
+        }
+        .below__text {
+          font-family: "Roboto";
+          color: #616161;
+          margin-left: 10px;
+          margin-right: 90px;
+        }
+        .video1 {
+          width: 50%;
+          height: 150px;
+          margin-top: 10px;
+          margin-left: 5px;
+        }
+        .video2 {
+          width: 50%;
+          margin-top: 10px;
+          margin-left: 10px;
+        }
+        .Beneficios {
+          font-family: "HomepageBaukasten-Book";
+          font-weight: bolder;
+          font-size: 25px;
+          margin-top: 20px;
+          margin-left: 10px;
+        }
+        .text2 {
+          font-family: "Roboto";
+          color: #616161;
+          margin-left: 10px;
+          margin-right: 90px;
+        }
+        .Preguntas {
+          font-family: "HomepageBaukasten-Book";
+          font-weight: bolder;
+          font-size: 25px;
+          margin-top: 20px;
+          margin-left: 10px;
+        }
+        .text3 {
+          font-family: "HomepageBaukasten-Book";
+          margin-left: 50px;
+          color: #ff6606;
+          margin-top: 25px;
+          font-size: 14px;
+        }
+        .Información {
+          margin-left: 10px;
+          color: #ff6606;
+          font-family: "HomepageBaukasten-Book";
+        }
+        .text4 {
+          font-family: "Roboto";
+          color: #616161;
+          margin-left: 10px;
+          margin-right: 30px;
+          font-size: 14px;
+        }
+      }
+    }
+    .reviews__container {
+      margin-top: 100px;
+      margin-left: 20px;
+      width: 43%;
+      .reviews__header {
+        font-family: "HomepageBaukasten-Book";
+        font-size: 25px;
+        font-weight: 500;
+        margin-left: 10px;
+      }
+      .orignal__rating {
+        font-size: 60px;
+        font-weight: bolder;
+        margin-left: 10px;
+      }
+      .reviews__rating {
+        margin-top: -20px;
+        margin-left: 15px;
+      }
+      .estrellas {
+        font-family: "HomepageBaukasten-Book";
+        margin-left: 50px;
+        margin-top: 30px;
+        font-size: 12px;
+      }
+      .review__bar {
+        width: 100px;
+        height: 8px;
+        background-color: #ff6606;
+        margin-top: 35px;
+        margin-left: 10px;
+      }
+      .estrellas2 {
+        font-family: "HomepageBaukasten-Book";
+        margin-left: 50px;
+        margin-top: -12px;
+        font-size: 12px;
+      }
+      .review__bar2 {
+        width: 100px;
+        height: 8px;
+        background-color: #ff6606;
+        margin-top: -8px;
+        margin-left: 10px;
+      }
+      .Reseñas {
+        font-family: "HomepageBaukasten-Book";
+        font-size: 25px;
+        font-weight: 500;
+        margin-left: 10px;
+        margin-top: 30px;
+      }
+      .Hermoso {
+        font-family: "HomepageBaukasten-Book";
+        margin-left: 10px;
+        font-weight: bolder;
+        margin-top: 25px;
+      }
+      .rat {
+        margin-top: 22px;
+        margin-left: 20px;
+      }
+      .text7 {
+        font-family: "HomepageBaukasten-Book";
+        color: #616161;
+        margin-left: 10px;
+        font-size: 14px;
+        margin-top: 10px;
+      }
+    }
+  }
+  .bara {
+    height: 1310px;
+  }
+  .modal {
+    margin-top: 70px !important;
+    border-radius: 0px !important;
+    margin-left: 10px !important;
+  }
+  .modal-body {
+    width: 600px !important;
+    border-radius: 0px !important;
+  }
+  .modal-content {
+    width: 600px !important;
+    height: 250px !important;
+    border-radius: 0px !important;
+    background-color: #fff5ee !important;
+  }
+  .modal__centre {
+    width: 520px;
+    height: 160px;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 20px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+      rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    display: flex;
+  }
+  .modal__image {
+    margin-left: 10px;
+  }
+  .modal__name {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 30px;
+  }
+  .modal__color {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: -10px;
+  }
+  .modal__price {
+    color: #ff6606;
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  .El {
+    color: red;
+    font-family: "Roboto";
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: 15px;
+    margin-top: 30px;
+  }
+  .total {
+    font-family: "Roboto";
+    font-size: 25px;
+    color: #616161;
+    margin-left: 18px;
+    margin-top: 10px;
+  }
+  .modal__link {
+    font-family: "Roboto";
+    color: white;
+    background-color: #ff6606;
+    margin-left: 425px;
+    position: absolute;
+    padding: 5px 10px 5px 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+  .checkout_modal {
+    height: 900px;
+    width: 730px;
+    background-color: white;
+    margin-top: -2650px !important;
+    margin-left: 29px !important;
+    z-index: 100;
+    position: absolute;
+    display: none;
+
+    .checout__title {
+      font-family: "HomepageBaukasten-Book";
+      color: #ff6606;
+      margin-top: 35px;
+      font-weight: bolder;
+      font-size: 30px;
+    }
+    .numberinng__div {
+      margin-top: 30px;
+      margin-left: 80px;
+      .numbering {
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        background-color: gray;
+        color: black;
+        font-size: 18px;
+        padding-left: 9px;
+        padding-top: -5px;
+      }
+      .number1 {
+        font-family: "HomepageBaukasten-Book";
+        font-size: 18px;
+        color: gray;
+        margin-left: 10px;
+        margin-top: 3px;
+      }
+      .activa {
+        color: black;
+      }
+      .activa2 {
+        background-color: #ff6606;
+        color: white;
+      }
+    }
+    .numberinng__div2 {
+      margin-top: 30px;
+      margin-left: -10px;
+      .numbering {
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        background-color: gray;
+        color: black;
+        font-size: 18px;
+        padding-left: 9px;
+        padding-top: -5px;
+      }
+      .number1 {
+        font-family: "HomepageBaukasten-Book";
+        font-size: 20px;
+        color: gray;
+        margin-left: 10px;
+        margin-top: 3px;
+      }
+      .activa {
+        color: black;
+      }
+      .activa2 {
+        background-color: #ff6606;
+        color: white;
+      }
+    }
+
+    .lines {
+      border-bottom: 2px solid #767474;
+      width: 40px;
+      height: 2px;
+      margin-top: 43px;
+      margin-left: 10px;
+    }
+    .contAINE {
+      margin-top: 6px;
+    }
+    .form__container {
+      margin-left: 70px;
+      width: 85%;
+
+      margin-top: 20px;
+      height: 580px;
+      box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+        rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    }
+    .form__title {
+      font-family: "HomepageBaukasten-Book";
+      font-weight: bold;
+      font-size: 23px;
+      margin-top: 40px;
+      margin-left: 40px;
+      position: absolute;
+    }
+    .form_ok {
+      color: white;
+      background-color: #ff6606;
+      padding: 8px 25px 8px 25px;
+      position: absolute;
+      margin-left: 430px;
+      border-radius: 10px;
+      font-size: 20px;
+      margin-top: 32px;
+    }
+    .actual__form {
+      width: 300px;
+      margin-top: 110px;
+      margin-left: 20px;
+      .lablee {
+        font-family: "HomepageBaukasten-Book";
+        font-size: 17px;
+        margin-bottom: 3px;
+      }
+      input {
+        margin-bottom: 40px;
+        background-color: #f4f5f7;
+        font-family: "RegencieLight";
+      }
+    }
+    .emailo {
+      margin-left: 40px;
+      margin-right: 40px;
+      .lablee {
+        font-family: "HomepageBaukasten-Book";
+        font-size: 17px;
+        margin-bottom: 3px;
+      }
+      input {
+        margin-bottom: 40px;
+        background-color: #f4f5f7;
+        font-family: "RegencieLight";
+      }
+    }
+    .below__buttons {
+      width: 80%;
+      margin-left: 100px;
+      height: 100px;
+
+      display: flex;
+
+      .REGISTRARME {
+        font-family: "HomepageBaukasten-Book";
+        color: white;
+        background-color: #ff6606;
+        padding: 12px 40px 12px 40px;
+        border-radius: 10px;
+        position: absolute;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 100px;
+      }
+      .REGISTRARME2 {
+        font-family: "HomepageBaukasten-Book";
+        color: #ff6606;
+        background-color: white;
+        padding: 12px 40px 12px 40px;
+        border-radius: 10px;
+        position: absolute;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 360px;
+        border: 1px solid #ff6606;
+      }
+      .REGISTRARME3 {
+        font-family: "HomepageBaukasten-Book";
+        color: white;
+        background-color: #ff6606;
+        padding: 12px 40px 12px 40px;
+        border-radius: 10px;
+        position: absolute;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 160px;
+      }
+    }
+  }
+  .active {
+    display: block;
+  }
+  .gateway__title {
+    font-family: "HomepageBaukasten-Book";
+    margin-left: 40px;
+    margin-top: 40px;
+    position: absolute;
+    font-size: 24px;
+    font-weight: bolder;
+  }
+  .icc {
+    margin-top: 110px;
+    position: absolute;
+    margin-left: 340px;
+  }
+  .pays {
+    font-family: "HomepageBaukasten-Book";
+    margin-top: 40px;
+    margin-top: 180px;
+    position: absolute;
+    margin-left: 280px;
+    font-size: 25px;
+  }
+  .second {
+    .lableee {
+      margin-top: 230px;
+      margin-left: 40px;
+      font-family: "HomepageBaukasten-Book";
+      font-size: 17px;
+      font-weight: bold;
+    }
+    .form-control {
+      margin-left: 40px;
+      width: 88% !important;
+      background-color: #f4f5f7 !important;
+      font-family: "RegencieLight" !important;
+    }
+    .select {
+      margin-left: 30px;
+      width: 100px;
+    }
+    .lableeee {
+      margin-top: 30px;
+      margin-left: 40px;
+      font-family: "HomepageBaukasten-Book";
+      font-size: 17px;
+      font-weight: bold;
+    }
+    .form-controls {
+      background-color: #f4f5f7 !important;
+      font-family: "RegencieLight" !important;
+      border: none;
+      border-radius: 5px;
+      width: 240px !important;
+      padding-left: 10px;
+    }
+    .form-controlss {
+      background-color: #f4f5f7 !important;
+      font-family: "RegencieLight" !important;
+      border: none;
+      border-radius: 5px;
+      width: 330px !important;
+      padding-left: 10px;
+      margin-left: 40px;
+      height: 35px;
+    }
+    .form-controlS {
+      background-color: #f4f5f7 !important;
+      font-family: "RegencieLight" !important;
+      border: none;
+      border-radius: 5px;
+      width: 180px !important;
+      padding-left: 10px;
+      margin-left: 40px;
+      height: 35px;
+    }
+    .qas {
+      margin-top: -10px;
+    }
+  }
+  .form__container2 {
+    margin-left: 70px;
+    width: 85%;
+
+    margin-top: 20px;
+    height: 590px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+      rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  }
+  .form__container3 {
+    margin-left: 70px;
+    width: 85%;
+
+    margin-top: 20px;
+    height: 590px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+      rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    padding-top: 40px;
+    .direction {
+      margin-left: 40px;
+      font-family: "HomepageBaukasten-Book";
+
+      font-size: 25px;
+      font-weight: bolder;
+    }
+    .product_in_cart {
+      width: 93%;
+      margin-left: 20px;
+      height: 200px;
+      margin-top: 10px;
+      display: flex;
+      box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+        rgba(17, 17, 26, 0.05) 0px 8px 32px;
+      padding: 20px;
+      padding-right: 10px;
+      .cart__image {
+        width: 180px;
+        height: 170px;
+      }
+      .cart__title {
+        font-family: "HomepageBaukasten-Book";
+        font-size: 18px;
+        font-weight: bold;
+        margin-left: 10px;
+      }
+      .sss {
+        margin-left: 20px !important;
+      }
+      .cart__desc {
+        font-family: "RegencieLight" !important;
+        font-size: 12px;
+        margin-left: 10px;
+        margin-top: 25px;
+        width: 100%;
+      }
+      .color__title {
+        font-family: "HomepageBaukasten-Book";
+        margin-left: 10px;
+        margin-top: -8px;
+        font-weight: bold;
+      }
+      .cart__color {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: green;
+        margin-left: 15px;
+        margin-top: -3px;
+      }
+      .cart__quantity {
+        font-family: "HomepageBaukasten-Book";
+        margin-left: 10px;
+        font-weight: bold;
+        margin-right: 20px;
+      }
+      .minus {
+        border: 1px solid #cecece;
+        padding-top: 0px !important;
+        padding-right: 7px;
+        padding-left: 7px;
+        padding-top: 5px !important;
+        padding-bottom: 10px;
+        font-size: 10px;
+        margin-top: -3px;
+        background-color: #fff5ee;
+      }
+      .quantityaa {
+        border: 1px solid #cecece;
+        position: absolute;
+        margin-left: 128px;
+        margin-top: -3px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 13px;
+        padding-right: 13px;
+      }
+      .minus2 {
+        border: 1px solid #cecece;
+        padding-top: 0px !important;
+        padding-right: 7px;
+        padding-left: 7px;
+        padding-top: 5px !important;
+        padding-bottom: 10px;
+        font-size: 10px;
+        margin-top: -3px;
+        background-color: #fff5ee;
+        margin-left: 37px;
+      }
+      .total {
+        font-family: "HomepageBaukasten-Book";
+        margin-top: -1px;
+        font-size: 18px;
+        font-weight: bolder;
+        margin-left: 39px;
+      }
+      .total--price {
+        font-family: "HomepageBaukasten-Book";
+        color: #ff6606;
+        margin-top: -4px;
+        margin-left: 30px;
+        font-size: 20px;
+      }
+      .del {
+        font-size: 23px;
+        color: #ff6606;
+        margin-top: -5px;
+        margin-left: -25px;
+      }
+    }
+    .Monto__total {
+      margin-left: 500px;
+      margin-top: 40px;
+      font-family: "RegencieLight" !important;
+      font-size: 18px;
+    }
+    .prr {
+      margin-left: 540px;
+      margin-top: -20px;
+      font-family: "HomepageBaukasten-Book";
+      font-size: 20px;
+      font-weight: bold;
+      color: #ff6606;
+    }
+  }
+}
+@media (min-width: 1023px) and (max-width: 1299px) {
+  .checkout_modal {
+    margin-left: 200px;
+  }
+}
+@media (max-width: 767px) {
+  .header_container {
+    margin-top: -30px;
+    background-color: #0094ff;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    padding: 18px 10px 0px 10px;
+    .header_text {
+      margin-left: 20px;
+      color: white;
+      font-size: 16px;
+      font-family: "Roboto";
+    }
+    .inner__span {
+      font-size: 12px;
+    }
+  }
+  .product__upper {
+    width: 100%;
+    .ProductImage_slider {
+      width: 42%;
+      margin-left: 0px;
+      .sliderabove__text {
+        font-size: 18px;
+        color: black;
+        margin-top: 60px !important;
+        font-family: "RegencieLight";
+      }
+
+      .big__image {
+        margin-left: 20px;
+        margin-top: 15px;
+        height: 360px;
+        width: 50%;
+        .BIGIMAGE {
+          width: 130%;
+          height: 250px;
+          margin-left: 10px;
+          margin-top: 40px;
+        }
+        .arrow__border {
+          position: absolute;
+          margin-top: 160px;
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          margin-left: -15px;
+          background-color: #ff6606;
+
+          .left__arrow {
+            position: absolute;
+            font-size: 40px;
+            font-weight: 100;
+            margin-top: -19.5px;
+            border-radius: 50%;
+            margin-left: -6px;
+            color: white;
+          }
+        }
+        .arrow__border2 {
+          position: relative;
+          margin-top: -130px;
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          margin-left: 140%;
+          background-color: #ff6606;
+          .left__arrow2 {
+            position: absolute;
+            font-size: 40px;
+            font-weight: 100;
+            margin-top: -19px;
+            border-radius: 50%;
+            margin-left: -3px;
+            color: white;
+          }
+        }
+      }
+    }
+    .description__container {
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+      margin-top: 95px;
+      width: 43%;
+      height: 385px;
+      padding: 15px;
+      .header {
+        font-family: "Roboto";
+        font-size: 15px;
+      }
+      .star {
+        margin-top: -15px;
+      }
+      .openions {
+        font-family: "HomepageBaukasten-Book";
+        margin-top: -5px;
+        margin-left: 20px;
+        font-size: 10px;
+      }
+      .cutprice {
+        margin-top: 10px;
+        text-decoration-line: line-through;
+        font-family: "Roboto";
+        font-size: 10px;
+      }
+      .offer {
+        margin-top: 10px;
+        margin-left: 10px;
+        font-family: "Roboto";
+        font-size: 12px;
+      }
+      .co {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: brown;
+        margin-right: 5px;
+      }
+      .co1 {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: lightblue;
+        margin-right: 5px;
+      }
+      .co2 {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: black;
+        margin-right: 5px;
+      }
+      .co3 {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: lightgrey;
+        margin-right: 5px;
+      }
+      .lef {
+        font-size: 20px;
+        margin-top: -13px;
+        margin-left: 0px;
+      }
+      .lef2 {
+        font-size: 20px;
+        margin-top: -14px;
+      }
+      .quantity {
+        font-family: "Roboto";
+        font-size: 8px;
+        margin-top: -3px;
+      }
+      .new__price {
+        margin-top: -15px;
+        margin-bottom: 10px;
+        font-size: 25px;
+      }
+      .desc {
+        font-family: "HomepageBaukasten-Book";
+        font-size: 12px;
+        margin-top: -10px;
+      }
+      .des {
+        font-family: "Roboto";
+        font-size: 9px;
+        margin-top: -12px;
+      }
+      .COMPRAR {
+        font-family: "HomepageBaukasten-Book";
+        background-color: #ff6606;
+        color: white;
+        padding: 5px 8px 5px 8px;
+        border-radius: 5px;
+        margin-left: -10px;
+        margin-top: 10px;
+        cursor: pointer;
+        font-size: 10px;
+      }
+      .ELIMINAR {
+        font-family: "HomepageBaukasten-Book";
+        background-color: white;
+        color: red;
+        padding: 5px 8px 5px 8px;
+        border-radius: 5px;
+        margin-left: 10px;
+        margin-top: 10px;
+        border: 1px solid red;
+        position: absolute;
+        margin-left: 70px;
+        cursor: pointer;
+        font-size: 10px;
+      }
+    }
+  }
+  .combo__review {
+    width: 100%;
+    .combo__container {
+      height: 400px;
+      width: 55%;
+      margin-top: 30px;
+      margin-left: 10px;
+      .combos {
+        font-family: "Roboto";
+        color: #ff6606;
+        font-size: 25px;
+        margin-left: 20px;
+        font-family: 900;
+      }
+      .combo__Image {
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+          rgba(17, 17, 26, 0.05) 0px 8px 32px;
+        width: 160px;
+        height: 120px;
+        margin-top: 20px;
+      }
+      .inner {
+        width: 40px;
+        height: 70px;
+        margin-top: 10px;
+      }
+      .combo__Image2 {
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+          rgba(17, 17, 26, 0.05) 0px 8px 32px;
+        width: 60px;
+        height: 120px;
+        margin-top: 20px;
+        margin-left: 10px;
+      }
+      .imgss {
+        width: 90%;
+        height: 100%;
+        margin-left: -13px;
+      }
+      .plus {
+        color: #ff6606;
+        font-size: 20px;
+        margin-top: 60px;
+        margin-left: 10px;
+      }
+      .combo__rating {
+        margin-left: -12px;
+        margin-top: -5px;
+      }
+      .combo__text {
+        font-family: "Roboto";
+        font-size: 8px;
+        margin-top: -20px;
+        margin-left: -10px;
+      }
+      .discount {
+        font-family: "Roboto";
+        margin-left: 10px;
+        margin-top: 20px;
+      }
+      .combo__price {
+        font-family: "Roboto";
+        font-size: 18px;
+        font-weight: bolder;
+      }
+      .combo__discount {
+        font-family: "Roboto";
+        color: #ff6606;
+        font-size: 20px;
+        margin-left: 5px;
+      }
+      .combo__link {
+        color: white;
+        background-color: #ff6606;
+        font-family: "HomepageBaukasten-Book";
+        margin-left: 10px;
+        padding: 5px 10px 5px 10px;
+        border-radius: 5px;
+        font-size: 10px;
+        position: absolute;
+      }
+      .combo__links {
+        color: #ff6606;
+        background-color: white;
+        font-family: "HomepageBaukasten-Book";
+        border: 1px solid #ff6606;
+        margin-left: 10px;
+        padding: 5px 10px 5px 10px;
+        border-radius: 5px;
+        margin-top: 20px;
+        position: absolute;
+        font-size: 10px;
+        margin-top: 30px;
+      }
+      .below__combo {
+        width: 100%;
+        height: 1000px;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+          rgba(17, 17, 26, 0.05) 0px 8px 32px;
+        margin-top: 30px;
+        border: 1px solid rgba(97, 97, 97, 0.14);
+        padding: 10px;
+        .below_header {
+          font-family: "HomepageBaukasten-Book";
+          font-weight: bolder;
+          font-size: 16px;
+          margin-top: 10px;
+          margin-left: 10px;
+        }
+        .below__text {
+          font-family: "Roboto";
+          color: #616161;
+          margin-left: 10px;
+          margin-right: 20px;
+          font-size: 12px;
+        }
+        .video1 {
+          width: 50%;
+          height: 150px;
+          margin-top: 10px;
+          margin-left: 5px;
+        }
+        .video2 {
+          width: 50%;
+          margin-top: 10px;
+          margin-left: 10px;
+        }
+        .Beneficios {
+          font-family: "HomepageBaukasten-Book";
+          font-weight: bolder;
+          font-size: 16px;
+          margin-top: 0px;
+          margin-left: 10px;
+        }
+        .text2 {
+          font-family: "Roboto";
+          color: #616161;
+          margin-left: 10px;
+          margin-right: 20px;
+          font-size: 12px;
+        }
+        .Preguntas {
+          font-family: "HomepageBaukasten-Book";
+          font-weight: bolder;
+          font-size: 15px;
+          margin-top: 20px;
+          margin-left: 10px;
+        }
+        .text3 {
+          font-family: "HomepageBaukasten-Book";
+          margin-left: 30px;
+          color: #ff6606;
+          margin-top: 25px;
+          font-size: 12px;
+        }
+        .Información {
+          margin-left: 10px;
+          color: #ff6606;
+          font-family: "HomepageBaukasten-Book";
+          font-size: 14px;
+        }
+        .text4 {
+          font-family: "Roboto";
+          color: #616161;
+          margin-left: 10px;
+          margin-right: 30px;
+          font-size: 12px;
+        }
+      }
+    }
+    .reviews__container {
+      margin-top: 250px;
+      margin-left: 20px;
+      width: 42%;
+      .reviews__header {
+        font-family: "HomepageBaukasten-Book";
+        font-size: 18px;
+        font-weight: 500;
+        margin-left: 10px;
+      }
+      .orignal__rating {
+        font-size: 30px;
+        font-weight: bolder;
+        margin-left: 10px;
+      }
+      .reviews__rating {
+        margin-top: -20px;
+        margin-left: 15px;
+      }
+      .estrellas {
+        font-family: "HomepageBaukasten-Book";
+        margin-left: 50px;
+        margin-top: 30px;
+        font-size: 10px;
+      }
+      .review__bar {
+        width: 60px;
+        height: 8px;
+        background-color: #ff6606;
+        margin-top: 35px;
+        margin-left: 10px;
+      }
+      .estrellas2 {
+        font-family: "HomepageBaukasten-Book";
+        margin-left: 50px;
+        margin-top: -12px;
+        font-size: 10px;
+      }
+      .review__bar2 {
+        width: 60px;
+        height: 8px;
+        background-color: #ff6606;
+        margin-top: -8px;
+        margin-left: 10px;
+      }
+      .Reseñas {
+        font-family: "HomepageBaukasten-Book";
+        font-size: 20px;
+        font-weight: 500;
+        margin-left: 10px;
+        margin-top: 30px;
+      }
+      .Hermoso {
+        font-family: "HomepageBaukasten-Book";
+        margin-left: 10px;
+        font-weight: bolder;
+        margin-top: 25px;
+        font-size: 14px;
+      }
+      .rat {
+        margin-top: 15px;
+        margin-left: 20px;
+      }
+      .text7 {
+        font-family: "HomepageBaukasten-Book";
+        color: #616161;
+        margin-left: 10px;
+        font-size: 10px;
+        margin-top: 10px;
+      }
+    }
+  }
+  .bara {
+    height: 1310px;
+  }
+  .modal {
+    margin-top: 70px !important;
+    border-radius: 0px !important;
+    margin-left: 10px !important;
+  }
+  .modal-body {
+    width: 600px !important;
+    border-radius: 0px !important;
+  }
+  .modal-content {
+    width: 600px !important;
+    height: 250px !important;
+    border-radius: 0px !important;
+    background-color: #fff5ee !important;
+  }
+  .modal__centre {
+    width: 520px;
+    height: 160px;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 20px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+      rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    display: flex;
+  }
+  .modal__image {
+    margin-left: 10px;
+  }
+  .modal__name {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 30px;
+  }
+  .modal__color {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: -10px;
+  }
+  .modal__price {
+    color: #ff6606;
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  .El {
+    color: red;
+    font-family: "Roboto";
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: 15px;
+    margin-top: 30px;
+  }
+  .total {
+    font-family: "Roboto";
+    font-size: 25px;
+    color: #616161;
+    margin-left: 18px;
+    margin-top: 10px;
+  }
+  .modal__link {
+    font-family: "Roboto";
+    color: white;
+    background-color: #ff6606;
+    margin-left: 425px;
+    position: absolute;
+    padding: 5px 10px 5px 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+  .checkout_modal {
+    height: 900px;
+    width: 730px;
+    background-color: white;
+    margin-top: -2650px !important;
+    margin-left: 29px !important;
+    z-index: 100;
+    position: absolute;
+    display: none;
+
+    .checout__title {
+      font-family: "HomepageBaukasten-Book";
+      color: #ff6606;
+      margin-top: 35px;
+      font-weight: bolder;
+      font-size: 30px;
+    }
+    .numberinng__div {
+      margin-top: 30px;
+      margin-left: 80px;
+      .numbering {
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        background-color: gray;
+        color: black;
+        font-size: 18px;
+        padding-left: 9px;
+        padding-top: -5px;
+      }
+      .number1 {
+        font-family: "HomepageBaukasten-Book";
+        font-size: 18px;
+        color: gray;
+        margin-left: 10px;
+        margin-top: 3px;
+      }
+      .activa {
+        color: black;
+      }
+      .activa2 {
+        background-color: #ff6606;
+        color: white;
+      }
+    }
+    .numberinng__div2 {
+      margin-top: 30px;
+      margin-left: -10px;
+      .numbering {
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        background-color: gray;
+        color: black;
+        font-size: 18px;
+        padding-left: 9px;
+        padding-top: -5px;
+      }
+      .number1 {
+        font-family: "HomepageBaukasten-Book";
+        font-size: 20px;
+        color: gray;
+        margin-left: 10px;
+        margin-top: 3px;
+      }
+      .activa {
+        color: black;
+      }
+      .activa2 {
+        background-color: #ff6606;
+        color: white;
+      }
+    }
+
+    .lines {
+      border-bottom: 2px solid #767474;
+      width: 40px;
+      height: 2px;
+      margin-top: 43px;
+      margin-left: 10px;
+    }
+    .contAINE {
+      margin-top: 6px;
+    }
+    .form__container {
+      margin-left: 70px;
+      width: 85%;
+
+      margin-top: 20px;
+      height: 580px;
+      box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+        rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    }
+    .form__title {
+      font-family: "HomepageBaukasten-Book";
+      font-weight: bold;
+      font-size: 23px;
+      margin-top: 40px;
+      margin-left: 40px;
+      position: absolute;
+    }
+    .form_ok {
+      color: white;
+      background-color: #ff6606;
+      padding: 8px 25px 8px 25px;
+      position: absolute;
+      margin-left: 430px;
+      border-radius: 10px;
+      font-size: 20px;
+      margin-top: 32px;
+    }
+    .actual__form {
+      width: 300px;
+      margin-top: 110px;
+      margin-left: 20px;
+      .lablee {
+        font-family: "HomepageBaukasten-Book";
+        font-size: 17px;
+        margin-bottom: 3px;
+      }
+      input {
+        margin-bottom: 40px;
+        background-color: #f4f5f7;
+        font-family: "RegencieLight";
+      }
+    }
+    .emailo {
+      margin-left: 40px;
+      margin-right: 40px;
+      .lablee {
+        font-family: "HomepageBaukasten-Book";
+        font-size: 17px;
+        margin-bottom: 3px;
+      }
+      input {
+        margin-bottom: 40px;
+        background-color: #f4f5f7;
+        font-family: "RegencieLight";
+      }
+    }
+    .below__buttons {
+      width: 80%;
+      margin-left: 100px;
+      height: 100px;
+
+      display: flex;
+
+      .REGISTRARME {
+        font-family: "HomepageBaukasten-Book";
+        color: white;
+        background-color: #ff6606;
+        padding: 12px 40px 12px 40px;
+        border-radius: 10px;
+        position: absolute;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 100px;
+      }
+      .REGISTRARME2 {
+        font-family: "HomepageBaukasten-Book";
+        color: #ff6606;
+        background-color: white;
+        padding: 12px 40px 12px 40px;
+        border-radius: 10px;
+        position: absolute;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 360px;
+        border: 1px solid #ff6606;
+      }
+      .REGISTRARME3 {
+        font-family: "HomepageBaukasten-Book";
+        color: white;
+        background-color: #ff6606;
+        padding: 12px 40px 12px 40px;
+        border-radius: 10px;
+        position: absolute;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 160px;
+      }
+    }
+  }
+  .active {
+    display: block;
+  }
+  .gateway__title {
+    font-family: "HomepageBaukasten-Book";
+    margin-left: 40px;
+    margin-top: 40px;
+    position: absolute;
+    font-size: 24px;
+    font-weight: bolder;
+  }
+  .icc {
+    margin-top: 110px;
+    position: absolute;
+    margin-left: 340px;
+  }
+  .pays {
+    font-family: "HomepageBaukasten-Book";
+    margin-top: 40px;
+    margin-top: 180px;
+    position: absolute;
+    margin-left: 280px;
+    font-size: 25px;
+  }
+  .second {
+    .lableee {
+      margin-top: 230px;
+      margin-left: 40px;
+      font-family: "HomepageBaukasten-Book";
+      font-size: 17px;
+      font-weight: bold;
+    }
+    .form-control {
+      margin-left: 40px;
+      width: 88% !important;
+      background-color: #f4f5f7 !important;
+      font-family: "RegencieLight" !important;
+    }
+    .select {
+      margin-left: 30px;
+      width: 100px;
+    }
+    .lableeee {
+      margin-top: 30px;
+      margin-left: 40px;
+      font-family: "HomepageBaukasten-Book";
+      font-size: 17px;
+      font-weight: bold;
+    }
+    .form-controls {
+      background-color: #f4f5f7 !important;
+      font-family: "RegencieLight" !important;
+      border: none;
+      border-radius: 5px;
+      width: 240px !important;
+      padding-left: 10px;
+    }
+    .form-controlss {
+      background-color: #f4f5f7 !important;
+      font-family: "RegencieLight" !important;
+      border: none;
+      border-radius: 5px;
+      width: 330px !important;
+      padding-left: 10px;
+      margin-left: 40px;
+      height: 35px;
+    }
+    .form-controlS {
+      background-color: #f4f5f7 !important;
+      font-family: "RegencieLight" !important;
+      border: none;
+      border-radius: 5px;
+      width: 180px !important;
+      padding-left: 10px;
+      margin-left: 40px;
+      height: 35px;
+    }
+    .qas {
+      margin-top: -10px;
+    }
+  }
+  .form__container2 {
+    margin-left: 70px;
+    width: 85%;
+
+    margin-top: 20px;
+    height: 590px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+      rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  }
+  .form__container3 {
+    margin-left: 70px;
+    width: 85%;
+
+    margin-top: 20px;
+    height: 590px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+      rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    padding-top: 40px;
+    .direction {
+      margin-left: 40px;
+      font-family: "HomepageBaukasten-Book";
+
+      font-size: 25px;
+      font-weight: bolder;
+    }
+    .product_in_cart {
+      width: 93%;
+      margin-left: 20px;
+      height: 200px;
+      margin-top: 10px;
+      display: flex;
+      box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+        rgba(17, 17, 26, 0.05) 0px 8px 32px;
+      padding: 20px;
+      padding-right: 10px;
+      .cart__image {
+        width: 180px;
+        height: 170px;
+      }
+      .cart__title {
+        font-family: "HomepageBaukasten-Book";
+        font-size: 18px;
+        font-weight: bold;
+        margin-left: 10px;
+      }
+      .sss {
+        margin-left: 20px !important;
+      }
+      .cart__desc {
+        font-family: "RegencieLight" !important;
+        font-size: 12px;
+        margin-left: 10px;
+        margin-top: 25px;
+        width: 100%;
+      }
+      .color__title {
+        font-family: "HomepageBaukasten-Book";
+        margin-left: 10px;
+        margin-top: -8px;
+        font-weight: bold;
+      }
+      .cart__color {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: green;
+        margin-left: 15px;
+        margin-top: -3px;
+      }
+      .cart__quantity {
+        font-family: "HomepageBaukasten-Book";
+        margin-left: 10px;
+        font-weight: bold;
+        margin-right: 20px;
+      }
+      .minus {
+        border: 1px solid #cecece;
+        padding-top: 0px !important;
+        padding-right: 7px;
+        padding-left: 7px;
+        padding-top: 5px !important;
+        padding-bottom: 10px;
+        font-size: 10px;
+        margin-top: -3px;
+        background-color: #fff5ee;
+      }
+      .quantityaa {
+        border: 1px solid #cecece;
+        position: absolute;
+        margin-left: 128px;
+        margin-top: -3px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 13px;
+        padding-right: 13px;
+      }
+      .minus2 {
+        border: 1px solid #cecece;
+        padding-top: 0px !important;
+        padding-right: 7px;
+        padding-left: 7px;
+        padding-top: 5px !important;
+        padding-bottom: 10px;
+        font-size: 10px;
+        margin-top: -3px;
+        background-color: #fff5ee;
+        margin-left: 37px;
+      }
+      .total {
+        font-family: "HomepageBaukasten-Book";
+        margin-top: -1px;
+        font-size: 18px;
+        font-weight: bolder;
+        margin-left: 39px;
+      }
+      .total--price {
+        font-family: "HomepageBaukasten-Book";
+        color: #ff6606;
+        margin-top: -4px;
+        margin-left: 30px;
+        font-size: 20px;
+      }
+      .del {
+        font-size: 23px;
+        color: #ff6606;
+        margin-top: -5px;
+        margin-left: -25px;
+      }
+    }
+    .Monto__total {
+      margin-left: 500px;
+      margin-top: 40px;
+      font-family: "RegencieLight" !important;
+      font-size: 18px;
+    }
+    .prr {
+      margin-left: 540px;
+      margin-top: -20px;
+      font-family: "HomepageBaukasten-Book";
+      font-size: 20px;
+      font-weight: bold;
+      color: #ff6606;
+    }
   }
 }
