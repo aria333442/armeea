@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Select from "react-select";
 import { AiOutlineMinus } from "react-icons/ai";
 import { BsPlus } from "react-icons/bs";
@@ -22,6 +22,9 @@ function Check() {
       color: "#ff6606", // Custom colour
     }),
   };
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const Condition = () => {
     if (number == 0) {
       return (
