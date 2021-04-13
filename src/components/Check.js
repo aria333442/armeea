@@ -271,8 +271,10 @@ function Check() {
                     <p className="minus2">
                       <BsPlus />
                     </p>
-                    <h2 className="total">Monto</h2>
-                    <p className="total--price">$999</p>
+                    <div>
+                      <h2 className="total">Monto</h2>
+                      <p className="total--price">$999</p>
+                    </div>
                   </div>
                 </div>
                 <p className="del">
@@ -284,7 +286,7 @@ function Check() {
             <p className="prr">$999</p>
           </div>
           <div className="below__buttons">
-            <NavLink to="/shop" className="REGISTRARME3">
+            <NavLink to="/shop" className="REGISTRARME4">
               COMPRAR
             </NavLink>
           </div>
