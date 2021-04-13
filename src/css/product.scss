@@ -2235,7 +2235,7 @@
           font-size: 12px;
         }
         .video1 {
-          width: 50%;
+          width: 100%;
           height: 150px;
           margin-top: 10px;
           margin-left: 5px;
@@ -2359,6 +2359,9 @@
         margin-top: 10px;
       }
     }
+  }
+  .similares {
+    font-size: 20px;
   }
   .bara {
     height: 1310px;
@@ -2841,6 +2844,57 @@
       font-size: 20px;
       font-weight: bold;
       color: #ff6606;
+    }
+  }
+  .similar {
+    margin-top: 50px;
+    width: 100%;
+    .similares {
+      font-family: "HomepageBaukasten-Book";
+      font-size: 25px;
+      font-weight: bolder;
+    }
+    .sim {
+      color: #ff6606;
+    }
+    .cards {
+      width: 240px;
+      height: 320px;
+
+      box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+        rgba(17, 17, 26, 0.05) 0px 8px 32px;
+      .card__image {
+        margin-left: 30px;
+        margin-top: 10px;
+      }
+      .card__rating {
+        margin-left: 70px;
+        margin-top: 6px;
+      }
+      .card__name {
+        font-family: "HomepageBaukasten-Book";
+        font-size: 15px;
+        font-weight: bold;
+        margin-left: 40px;
+        margin-top: -15px;
+      }
+      .card__price {
+        font-family: "RegencieLight";
+        font-size: 20px;
+        margin-left: 90px;
+        margin-top: -20px;
+      }
+      .DETALLES {
+        font-family: "HomepageBaukasten-Book";
+        color: white;
+        background-color: #ff6606;
+        padding: 6px 17px 6px 17px;
+        font-size: 12px;
+        margin-left: 65px;
+        margin-top: -10 px;
+        position: absolute;
+        border-radius: 10px;
+      }
     }
   }
 }

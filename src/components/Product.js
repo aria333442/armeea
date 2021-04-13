@@ -402,22 +402,38 @@ function Product() {
                       resistente, está hecha de material laminado lo cual la
                       hacen durable ante cualquier derrame de líquidos.
                     </p>
-                    <div className="d-flex" style={{ width: "100%" }}>
-                      <div className="video1">
-                        <ReactPlayer
-                          url="https://www.youtube.com/watch?v=ysz5S6PUM-U"
-                          width="100%"
-                          height="120px"
-                        />
-                      </div>
-                      <div className="video2">
-                        <ReactPlayer
-                          url="https://www.youtube.com/watch?v=ysz5S6PUM-U"
-                          width="100%"
-                          height="120px"
-                        />
-                      </div>
-                    </div>
+                    <Media query="(max-width:767px)">
+                      {(matches) => {
+                        return matches ? (
+                          <div className="d-flex" style={{ width: "100%" }}>
+                            <div className="video1">
+                              <ReactPlayer
+                                url="https://www.youtube.com/watch?v=ysz5S6PUM-U"
+                                width="100%"
+                                height="120px"
+                              />
+                            </div>
+                          </div>
+                        ) : (
+                          <div className="d-flex" style={{ width: "100%" }}>
+                            <div className="video1">
+                              <ReactPlayer
+                                url="https://www.youtube.com/watch?v=ysz5S6PUM-U"
+                                width="100%"
+                                height="120px"
+                              />
+                            </div>
+                            <div className="video2">
+                              <ReactPlayer
+                                url="https://www.youtube.com/watch?v=ysz5S6PUM-U"
+                                width="100%"
+                                height="120px"
+                              />
+                            </div>
+                          </div>
+                        );
+                      }}
+                    </Media>
                     <h2 className="Beneficios">Beneficios</h2>
                     <p className="text2">
                       Además de ser bonita y cómoda para tu gatito, funciona
@@ -662,6 +678,41 @@ function Product() {
             </Media>
 
             <Media query="(min-width:768px) and (max-width:1299px)">
+              {(matches) => {
+                return matches ? (
+                  <div className="row justify-content-center">
+                    {card.map((car) => {
+                      return (
+                        <div className="d-flex">
+                          <div className="col-6 mt-5">
+                            <div className="cards">
+                              <img
+                                src={car.image}
+                                className="card__image"
+                              ></img>
+                              <p className="card__rating">
+                                <StarRatings
+                                  starRatedColor="#ff6606"
+                                  rating={5}
+                                  starDimension="15px"
+                                  starSpacing="2px"
+                                />
+                              </p>
+                              <p className="card__name">{car.name}</p>
+                              <p className="card__price">${car.price}</p>
+                              <NavLink to="#" className="DETALLES">
+                                DETALLES
+                              </NavLink>
+                            </div>
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
+                ) : null;
+              }}
+            </Media>
+            <Media query="(max-width:767px)">
               {(matches) => {
                 return matches ? (
                   <div className="row justify-content-center">
