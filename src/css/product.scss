@@ -2440,186 +2440,188 @@
     border-radius: 10px;
     overflow-x: hidden;
   }
-  .checkout_modal {
-    height: 900px;
-    width: 100%;
-    background-color: white;
-    margin-top: -3350px !important;
-    margin-left: 0px !important;
-    z-index: 100;
-    position: absolute;
-    display: none;
-
-    .checout__title {
-      font-family: "HomepageBaukasten-Book";
-      color: #ff6606;
-      margin-top: 35px;
-      font-weight: bolder;
-      font-size: 30px;
-    }
-    .numberinng__div {
-      margin-top: 30px;
-      margin-left: 0px;
-      .numbering {
-        width: 28px;
-        height: 28px;
-        border-radius: 50%;
-        background-color: gray;
-        color: black;
-        font-size: 18px;
-        padding-left: 9px;
-        padding-top: -5px;
-      }
-      .number1 {
-        font-family: "HomepageBaukasten-Book";
-        font-size: 12px;
-        color: gray;
-        margin-left: 10px;
-        margin-top: 3px;
-      }
-      .activa {
-        color: black;
-      }
-      .activa2 {
-        background-color: #ff6606;
-        color: white;
-      }
-    }
-    .numberinng__div2 {
-      margin-top: 30px;
-      margin-left: -5px;
-      .numbering {
-        width: 28px;
-        height: 28px;
-        border-radius: 50%;
-        background-color: gray;
-        color: black;
-        font-size: 18px;
-        padding-left: 9px;
-        padding-top: -5px;
-      }
-      .number1 {
-        font-family: "HomepageBaukasten-Book";
-        font-size: 12px;
-        color: gray;
-        margin-left: 10px;
-        margin-top: 3px;
-      }
-      .activa {
-        color: black;
-      }
-      .activa2 {
-        background-color: #ff6606;
-        color: white;
-      }
-    }
-
-    .lines {
-      border-bottom: none;
-      width: 0px;
-      height: 2px;
-      margin-top: 43px;
-      margin-left: 0px;
-    }
-    .contAINE {
-      margin-top: 6px;
-    }
-    .form__container {
-      margin-left: 0px;
+  .laoro {
+    width: 100px;
+    overflow-x: hidden;
+    .checkout_modal {
+      height: 900px;
       width: 100%;
+      background-color: white;
+      margin-top: 20px !important;
+      margin-left: 0px !important;
+      z-index: 100;
+      display: block;
 
-      margin-top: 20px;
-      height: 580px;
-      box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
-        rgba(17, 17, 26, 0.05) 0px 8px 32px;
-    }
-    .form__title {
-      font-family: "HomepageBaukasten-Book";
-      font-weight: bold;
-      font-size: 18px;
-      margin-top: 40px;
-      margin-left: 10px;
-      position: absolute;
-    }
-    .form_ok {
-      color: white;
-      background-color: #ff6606;
-      padding: 8px 10px 8px 10px;
-      position: absolute;
-      margin-left: 270px;
-      border-radius: 5px;
-      font-size: 12px;
-      margin-top: 32px;
-    }
-    .actual__form {
-      width: 300px;
-      margin-top: 110px;
-      margin-left: 20px;
-      .lablee {
-        font-family: "HomepageBaukasten-Book";
-        font-size: 17px;
-        margin-bottom: 3px;
-      }
-      input {
-        margin-bottom: 40px;
-        background-color: #f4f5f7;
-        font-family: "RegencieLight";
-      }
-    }
-    .emailo {
-      margin-left: 40px;
-      margin-right: 40px;
-      .lablee {
-        font-family: "HomepageBaukasten-Book";
-        font-size: 17px;
-        margin-bottom: 3px;
-      }
-      input {
-        margin-bottom: 40px;
-        background-color: #f4f5f7;
-        font-family: "RegencieLight";
-      }
-    }
-    .below__buttons {
-      width: 80%;
-      margin-left: 100px;
-      height: 100px;
-
-      display: flex;
-
-      .REGISTRARME {
-        font-family: "HomepageBaukasten-Book";
-        color: white;
-        background-color: #ff6606;
-        padding: 10px 10px 10px 10px;
-        border-radius: 5px;
-        position: absolute;
-        font-size: 13px;
-        margin-top: 20px;
-        margin-left: -30px;
-      }
-      .REGISTRARME2 {
+      .checout__title {
         font-family: "HomepageBaukasten-Book";
         color: #ff6606;
-        background-color: white;
-        padding: 10px 10px 10px 10px;
-        border-radius: 5px;
-        position: absolute;
-        font-size: 13px;
-        margin-top: 20px;
-        margin-left: 120px;
-        border: 1px solid #ff6606;
+        margin-top: 35px;
+        font-weight: bolder;
+        font-size: 30px;
       }
-      .REGISTRARME3 {
+      .numberinng__div {
+        margin-top: 30px;
+        margin-left: 0px;
+        .numbering {
+          width: 28px;
+          height: 28px;
+          border-radius: 50%;
+          background-color: gray;
+          color: black;
+          font-size: 18px;
+          padding-left: 9px;
+          padding-top: -5px;
+        }
+        .number1 {
+          font-family: "HomepageBaukasten-Book";
+          font-size: 12px;
+          color: gray;
+          margin-left: 10px;
+          margin-top: 5px;
+        }
+        .activa {
+          color: black;
+        }
+        .activa2 {
+          background-color: #ff6606;
+          color: white;
+        }
+      }
+      .numberinng__div2 {
+        margin-top: 30px;
+        margin-left: -5px;
+        .numbering {
+          width: 28px;
+          height: 28px;
+          border-radius: 50%;
+          background-color: gray;
+          color: black;
+          font-size: 18px;
+          padding-left: 9px;
+          padding-top: -5px;
+        }
+        .number1 {
+          font-family: "HomepageBaukasten-Book";
+          font-size: 12px;
+          color: gray;
+          margin-left: 10px;
+          margin-top: 5px;
+        }
+        .activa {
+          color: black;
+        }
+        .activa2 {
+          background-color: #ff6606;
+          color: white;
+        }
+      }
+
+      .lines {
+        border-bottom: none;
+        width: 0px;
+        height: 2px;
+        margin-top: 43px;
+        margin-left: 0px;
+      }
+      .contAINE {
+        margin-top: 6px;
+      }
+      .form__container {
+        margin-left: 0px;
+        width: 95%;
+        margin-left: 5px;
+        margin-top: 20px;
+        height: 580px;
+        box-shadow: none;
+      }
+      .form__title {
         font-family: "HomepageBaukasten-Book";
+        font-weight: bold;
+        font-size: 15px;
+        margin-top: 40px;
+        margin-left: 10px;
+        position: static;
+      }
+      .form_ok {
         color: white;
         background-color: #ff6606;
-        padding: 12px 40px 12px 40px;
-        border-radius: 10px;
-        position: absolute;
-        font-size: 20px;
-        margin-top: 20px;
-        margin-left: 160px;
+        padding: 8px 10px 8px 10px;
+        position: static;
+        margin-left: 0px;
+        border-radius: 5px;
+        font-size: 12px;
+        margin-top: 32px;
+      }
+      .actual__form {
+        width: 300px;
+        margin-top: 10px;
+        margin-left: 20px;
+        .lablee {
+          font-family: "HomepageBaukasten-Book";
+          font-size: 17px;
+          margin-bottom: 3px;
+        }
+        input {
+          margin-bottom: 40px;
+          background-color: #f4f5f7;
+          font-family: "RegencieLight";
+        }
+      }
+      .emailo {
+        margin-left: 40px;
+        margin-right: 40px;
+        .lablee {
+          font-family: "HomepageBaukasten-Book";
+          font-size: 17px;
+          margin-bottom: 3px;
+        }
+        input {
+          margin-bottom: 40px;
+          background-color: #f4f5f7;
+          font-family: "RegencieLight";
+        }
+      }
+      .below__buttons {
+        width: 80%;
+        margin-left: 100px;
+        height: 100px;
+
+        display: flex;
+
+        .REGISTRARME {
+          font-family: "HomepageBaukasten-Book";
+          color: white;
+          background-color: #ff6606;
+          padding: 10px 10px 10px 10px;
+          border-radius: 5px;
+          position: absolute;
+          font-size: 13px;
+          margin-top: 20px;
+          margin-left: -30px;
+        }
+        .REGISTRARME2 {
+          font-family: "HomepageBaukasten-Book";
+          color: #ff6606;
+          background-color: white;
+          padding: 10px 10px 10px 10px;
+          border-radius: 5px;
+          position: absolute;
+          font-size: 13px;
+          margin-top: 20px;
+          margin-left: 120px;
+          border: 1px solid #ff6606;
+        }
+        .REGISTRARME3 {
+          font-family: "HomepageBaukasten-Book";
+          color: white;
+          background-color: #ff6606;
+          padding: 12px 40px 12px 40px;
+          border-radius: 10px;
+          position: absolute;
+          font-size: 20px;
+          margin-top: 20px;
+          margin-left: 160px;
+        }
       }
     }
   }

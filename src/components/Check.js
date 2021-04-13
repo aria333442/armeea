@@ -4,10 +4,11 @@ import { AiOutlineMinus } from "react-icons/ai";
 import { BsPlus } from "react-icons/bs";
 import { RiDeleteBin6Line } from "react-icons/ri";
 import { NavLink } from "react-router-dom";
-
-function Checkout(props) {
-  const [number, setnumber] = useState(props.numberState);
-  const [close, setclose] = useState(props.classstate);
+function Check() {
+  const [number, setnumber] = useState(0);
+  const incnumber = () => {
+    setnumber(number + 1);
+  };
   const colourStyles = {
     control: (styles) => ({
       ...styles,
@@ -21,28 +22,18 @@ function Checkout(props) {
       color: "#ff6606", // Custom colour
     }),
   };
-
-  const document = [
-    {
-      value: "CURP",
-      label: "CURP",
-    },
-  ];
-  const incnumber = () => {
-    setnumber(number + 1);
-  };
-  console.log(close);
-
   const Condition = () => {
     if (number == 0) {
       return (
         <div>
           <div className="form__container">
             <div>
-              <h2 className="form__title">Ingresa tus datos personales</h2>
-              <p className="form_ok" onClick={incnumber}>
-                INGRESAR
-              </p>
+              <div className="d-flex justify-content-between">
+                <h2 className="form__title">Ingresa tus datos personales</h2>
+                <p className="form_ok" onClick={incnumber}>
+                  INGRESAR
+                </p>
+              </div>
               <div className="d-flex">
                 <div className="actual__form">
                   <form>
@@ -297,47 +288,47 @@ function Checkout(props) {
     }
   };
   return (
-    <div
-      className={
-        props.classstate === 0 ? "checkout_modal " : "checkout_modal active"
-      }
-    >
-      <div className="d-flex justify-content-center">
-        <h2 className="checout__title">Checkout</h2>
-      </div>
-      <div className="contAINE">
-        <div className="d-flex justify-content-around">
-          <div className="d-flex numberinng__div">
-            <p className={number >= 0 ? "numbering activa2" : "numbering "}>
-              1
-            </p>
-            <h2 className={number >= 0 ? "number1 activa" : "number1 "}>
-              Datos personales
-            </h2>
+    <div className="container-fluid m-0 p-0">
+      <div className="laoro">
+        <div className="checkout_modal ">
+          <div className="d-flex justify-content-center">
+            <h2 className="checout__title">Checkout</h2>
           </div>
-          <div className="lines"></div>
-          <div className="d-flex numberinng__div2">
-            <p className={number >= 1 ? "numbering activa2" : "numbering "}>
-              2
-            </p>
-            <h2 className={number >= 1 ? "number1 activa" : "number1"}>
-              Método de pago
-            </h2>
+          <div className="contAINE">
+            <div className="d-flex justify-content-around">
+              <div className="d-flex numberinng__div justify-content-around">
+                <p className={number >= 0 ? "numbering activa2" : "numbering "}>
+                  1
+                </p>
+                <h2 className={number >= 0 ? "number1 activa" : "number1 "}>
+                  Datos personales
+                </h2>
+              </div>
+              <div className="lines"></div>
+              <div className="d-flex numberinng__div2">
+                <p className={number >= 1 ? "numbering activa2" : "numbering "}>
+                  2
+                </p>
+                <h2 className={number >= 1 ? "number1 activa" : "number1"}>
+                  Método de pago
+                </h2>
+              </div>
+              <div className="lines"></div>
+              <div className="d-flex numberinng__div2">
+                <p className={number >= 2 ? "numbering activa2" : "numbering "}>
+                  3
+                </p>
+                <h2 className={number >= 2 ? "number1 activa" : "number1"}>
+                  Dirección
+                </h2>
+              </div>
+            </div>
           </div>
-          <div className="lines"></div>
-          <div className="d-flex numberinng__div2">
-            <p className={number >= 2 ? "numbering activa2" : "numbering "}>
-              3
-            </p>
-            <h2 className={number >= 2 ? "number1 activa" : "number1"}>
-              Dirección
-            </h2>
-          </div>
+          <Condition />
         </div>
       </div>
-      <Condition />
     </div>
   );
 }
 
-export default Checkout;
+export default Check;

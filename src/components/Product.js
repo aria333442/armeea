@@ -88,9 +88,19 @@ function Product() {
           </div>
           <div className="d-flex">
             <p className="total">Total:$999</p>
-            <p className="modal__link" onClick={handlecheckout}>
-              IR A LA CAJA
-            </p>
+            <Media query="(max-width:767px)">
+              {(matches) => {
+                return matches ? (
+                  <NavLink to="/Checkout" className="modal__link">
+                    IR A LA CAJA
+                  </NavLink>
+                ) : (
+                  <p className="modal__link" onClick={handlecheckout}>
+                    IR A LA CAJA
+                  </p>
+                );
+              }}
+            </Media>
           </div>
         </Modal.Body>
       </Modal>
@@ -751,9 +761,14 @@ function Product() {
         </div>
         {renderModal()}
       </div>
-      <div style={{ overflow: "hidden" }}>
-        {<Checkoutmodal classstate={checkout} numberState={formstates} />}
-      </div>
+      <Media query="(max-width:767px)">
+        {(matches) => {
+          return matches ? null : (
+            <Checkoutmodal classstate={checkout} numberState={formstates} />
+          );
+        }}
+      </Media>
+
       <Footer />
     </div>
   );

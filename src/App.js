@@ -7,6 +7,7 @@ import Product from "./components/Product";
 import Contacto from "./components/Contacto";
 import Presentacios from "./components/Presentacios";
 import Nosotros from "./components/Nosotros";
+import Check from "./components/Check";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/contact" component={Contacto}></Route>
         <Route path="/blog" component={Presentacios}></Route>
         <Route path="/about" component={Nosotros}></Route>
+        <Route path="/Checkout" component={Check}></Route>
       </Switch>
     </div>
   );
