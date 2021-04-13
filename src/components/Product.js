@@ -111,7 +111,7 @@ function Product() {
     }
   };
   return (
-    <div>
+    <div style={{ overflow: "hidden" }}>
       <div
         className={
           checkout == 0
@@ -751,7 +751,9 @@ function Product() {
         </div>
         {renderModal()}
       </div>
-      {<Checkoutmodal classstate={checkout} numberState={formstates} />}
+      <div style={{ overflow: "hidden" }}>
+        {<Checkoutmodal classstate={checkout} numberState={formstates} />}
+      </div>
       <Footer />
     </div>
   );

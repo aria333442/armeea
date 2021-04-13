@@ -2438,13 +2438,14 @@
     padding: 5px 10px 5px 10px;
     margin-top: 10px;
     border-radius: 10px;
+    overflow-x: hidden;
   }
   .checkout_modal {
     height: 900px;
-    width: 730px;
+    width: 100%;
     background-color: white;
-    margin-top: -2650px !important;
-    margin-left: 29px !important;
+    margin-top: -3350px !important;
+    margin-left: 0px !important;
     z-index: 100;
     position: absolute;
     display: none;
@@ -2458,7 +2459,7 @@
     }
     .numberinng__div {
       margin-top: 30px;
-      margin-left: 80px;
+      margin-left: 0px;
       .numbering {
         width: 28px;
         height: 28px;
@@ -2471,7 +2472,7 @@
       }
       .number1 {
         font-family: "HomepageBaukasten-Book";
-        font-size: 18px;
+        font-size: 12px;
         color: gray;
         margin-left: 10px;
         margin-top: 3px;
@@ -2486,7 +2487,7 @@
     }
     .numberinng__div2 {
       margin-top: 30px;
-      margin-left: -10px;
+      margin-left: -5px;
       .numbering {
         width: 28px;
         height: 28px;
@@ -2499,7 +2500,7 @@
       }
       .number1 {
         font-family: "HomepageBaukasten-Book";
-        font-size: 20px;
+        font-size: 12px;
         color: gray;
         margin-left: 10px;
         margin-top: 3px;
@@ -2514,18 +2515,18 @@
     }
 
     .lines {
-      border-bottom: 2px solid #767474;
-      width: 40px;
+      border-bottom: none;
+      width: 0px;
       height: 2px;
       margin-top: 43px;
-      margin-left: 10px;
+      margin-left: 0px;
     }
     .contAINE {
       margin-top: 6px;
     }
     .form__container {
-      margin-left: 70px;
-      width: 85%;
+      margin-left: 0px;
+      width: 100%;
 
       margin-top: 20px;
       height: 580px;
@@ -2535,19 +2536,19 @@
     .form__title {
       font-family: "HomepageBaukasten-Book";
       font-weight: bold;
-      font-size: 23px;
+      font-size: 18px;
       margin-top: 40px;
-      margin-left: 40px;
+      margin-left: 10px;
       position: absolute;
     }
     .form_ok {
       color: white;
       background-color: #ff6606;
-      padding: 8px 25px 8px 25px;
+      padding: 8px 10px 8px 10px;
       position: absolute;
-      margin-left: 430px;
-      border-radius: 10px;
-      font-size: 20px;
+      margin-left: 270px;
+      border-radius: 5px;
+      font-size: 12px;
       margin-top: 32px;
     }
     .actual__form {
@@ -2590,23 +2591,23 @@
         font-family: "HomepageBaukasten-Book";
         color: white;
         background-color: #ff6606;
-        padding: 12px 40px 12px 40px;
-        border-radius: 10px;
+        padding: 10px 10px 10px 10px;
+        border-radius: 5px;
         position: absolute;
-        font-size: 20px;
+        font-size: 13px;
         margin-top: 20px;
-        margin-left: 100px;
+        margin-left: -30px;
       }
       .REGISTRARME2 {
         font-family: "HomepageBaukasten-Book";
         color: #ff6606;
         background-color: white;
-        padding: 12px 40px 12px 40px;
-        border-radius: 10px;
+        padding: 10px 10px 10px 10px;
+        border-radius: 5px;
         position: absolute;
-        font-size: 20px;
+        font-size: 13px;
         margin-top: 20px;
-        margin-left: 360px;
+        margin-left: 120px;
         border: 1px solid #ff6606;
       }
       .REGISTRARME3 {
